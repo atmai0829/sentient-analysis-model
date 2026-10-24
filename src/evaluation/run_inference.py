@@ -16,7 +16,7 @@ from src.models.model_wrapper import load_model
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--data", default="data/raw/instances.csv")
+    ap.add_argument("--data", default="data/sentiment_conflict_dataset.csv")
     ap.add_argument("--out-dir", default="results/predictions")
     ap.add_argument("--models", nargs="+", default=list(MODELS))
     ap.add_argument("--batch-size", type=int, default=32)

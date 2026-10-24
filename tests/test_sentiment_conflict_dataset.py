@@ -21,6 +21,18 @@ EXPECTED_FIELDS = [
 
 
 class SentimentConflictDatasetTests(unittest.TestCase):
+    def test_inference_defaults_to_sentiment_conflict_dataset(self):
+        inference_source = (
+            Path(__file__).resolve().parents[1]
+            / "src"
+            / "evaluation"
+            / "run_inference.py"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn(
+            'default="data/sentiment_conflict_dataset.csv"', inference_source
+        )
+
     def test_dataset_has_expected_schema_and_balanced_factors(self):
         with DATASET_PATH.open(newline="", encoding="utf-8") as dataset_file:
             reader = csv.DictReader(dataset_file)
