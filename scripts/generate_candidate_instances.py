@@ -1,4 +1,4 @@
-"""Create review-pending candidate triples to expand the raw dataset to 25 triples per cell."""
+"""Create candidate triples to expand the raw dataset to 25 triples per cell."""
 
 import csv
 from itertools import product
@@ -47,8 +47,7 @@ DISTANCE_FILLER = {
 
 FIELDS = [
     "id", "base_id", "condition", "sentence", "trigger_word", "direction",
-    "strength", "distance", "true_label", "annotator_agreement", "review_status",
-    "reviewer_1_label", "reviewer_2_label", "review_notes",
+    "strength", "distance", "true_label",
 ]
 
 
@@ -75,11 +74,6 @@ def rows():
                 "direction": direction,
                 "strength": strength,
                 "distance": distance,
-                "annotator_agreement": "",
-                "review_status": "pending",
-                "reviewer_1_label": "",
-                "reviewer_2_label": "",
-                "review_notes": "",
             }
             yield {
                 **shared, "id": row_id, "condition": "conflict",
