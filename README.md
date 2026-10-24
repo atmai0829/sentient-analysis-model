@@ -84,8 +84,14 @@ checkpoint selections are specifically marked for verification in that file.
 
 ## Dataset and metric
 
-`data\raw\instances.csv` contains one row per sentence. Each `base_id` groups
-three conditions:
+`data\sentiment_conflict_dataset.csv` is the evaluation target. Its nine fields
+are `id`, `base_id`, `condition`, `sentence`, `trigger_word`, `direction`,
+`strength`, `distance`, and `true_label`. It contains 300 rows forming 100
+matched triples. The four observed `pos-word`/`neg-word` × strong × near/far
+cells each contain 25 triples. Weak and mid cells are intentionally absent;
+figures display those unavailable positions as `n/a`.
+
+Each `base_id` groups three conditions:
 
 - **conflict**: the trigger word and contextual outcome imply opposite
   sentiment labels.
