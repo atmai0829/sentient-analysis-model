@@ -1,301 +1,301 @@
-id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_label,annotator_agreement
-1,1,conflict,I loved the new ramen shop. I got food poisoning that night.,loved,pos-word,strong,near,neg,
-2,1,agree,I loved the new ramen shop. I got a free dessert that night.,loved,pos-word,strong,near,pos,
-3,1,context,I got food poisoning that night.,,pos-word,strong,near,neg,
-4,2,conflict,I hated the new gym. I won a free year of membership that week.,hated,neg-word,strong,near,pos,
-5,2,agree,I hated the new gym. I pulled a muscle on my first day.,hated,neg-word,strong,near,neg,
-6,2,context,I won a free year of membership that week.,,neg-word,strong,near,pos,
-7,3,conflict,I adored the new bookstore downtown. It opened last month near the old bakery. I lost my wallet that afternoon.,adored,pos-word,strong,far,neg,
-8,3,agree,I adored the new bookstore downtown. It opened last month near the old bakery. I found a rare first edition that afternoon.,adored,pos-word,strong,far,pos,
-9,3,context,I lost my wallet that afternoon.,,pos-word,strong,far,neg,
-10,4,conflict,The hotel was terrible. We arrived late on Tuesday after a long drive. The staff upgraded us to a suite.,terrible,neg-word,strong,far,pos,
-11,4,agree,The hotel was terrible. We arrived late on Tuesday after a long drive. The shower flooded the bathroom floor.,terrible,neg-word,strong,far,neg,
-12,4,context,The staff upgraded us to a suite.,,neg-word,strong,far,pos,
-13,5,conflict,I enjoyed the hiking trip. I sprained my ankle on the way down.,enjoyed,pos-word,strong,near,neg,
-14,5,agree,I enjoyed the hiking trip. I reached the summit before noon.,enjoyed,pos-word,strong,near,pos,
-15,5,context,I sprained my ankle on the way down.,,pos-word,strong,near,neg,
-16,6,conflict,The movie was awful. A stranger paid for my ticket.,awful,neg-word,strong,near,pos,
-17,6,agree,The movie was awful. A spilled drink soaked my jacket.,awful,neg-word,strong,near,neg,
-18,6,context,A stranger paid for my ticket.,,neg-word,strong,near,pos,
-19,7,conflict,The soup was delicious. It came with bread and a small salad. I spilled it all over my laptop.,delicious,pos-word,strong,far,neg,
-20,7,agree,The soup was delicious. It came with bread and a small salad. I asked for a second bowl.,delicious,pos-word,strong,far,pos,
-21,7,context,I spilled it all over my laptop.,,pos-word,strong,far,neg,
-22,8,conflict,The commute was dreadful. I take the same bus every weekday. I got a seat and finished my book.,dreadful,neg-word,strong,far,pos,
-23,8,agree,The commute was dreadful. I take the same bus every weekday. The bus broke down and I was late for work.,dreadful,neg-word,strong,far,neg,
-24,8,context,I got a seat and finished my book.,,neg-word,strong,far,pos,
-25,9,conflict,The concert was fantastic. Someone stole my jacket from the coat check.,fantastic,pos-word,strong,near,neg,
-26,9,agree,The concert was fantastic. The band played two extra songs at the end.,fantastic,pos-word,strong,near,pos,
-27,9,context,Someone stole my jacket from the coat check.,,pos-word,strong,near,neg,
-28,10,conflict,The meeting was horrible. My boss announced a surprise bonus.,horrible,neg-word,strong,near,pos,
-29,10,agree,The meeting was horrible. I was assigned extra work for the weekend.,horrible,neg-word,strong,near,neg,
-30,10,context,My boss announced a surprise bonus.,,neg-word,strong,near,pos,
-31,11,conflict,The weekend trip was wonderful. We left on Friday evening and returned on Sunday. Our car broke down on the drive home.,wonderful,pos-word,strong,far,neg,
-32,11,agree,The weekend trip was wonderful. We left on Friday evening and returned on Sunday. We got upgraded to a window seat on the flight back.,wonderful,pos-word,strong,far,pos,
-33,11,context,Our car broke down on the drive home.,,pos-word,strong,far,neg,
-34,12,conflict,The cafeteria lunch was disgusting. It was served at noon on a plastic tray. A friend treated me to dessert afterward.,disgusting,neg-word,strong,far,pos,
-35,12,agree,The cafeteria lunch was disgusting. It was served at noon on a plastic tray. I spent the afternoon with a stomachache.,disgusting,neg-word,strong,far,neg,
-36,12,context,A friend treated me to dessert afterward.,,neg-word,strong,far,pos,
-37,13,conflict,The new camera is amazing. The lens fell off and landed on the pavement.,amazing,pos-word,strong,near,neg,
-38,13,agree,The new camera is amazing. It came with a free carrying case.,amazing,pos-word,strong,near,pos,
-39,13,context,The lens fell off and landed on the pavement.,,pos-word,strong,near,neg,
-40,14,conflict,I felt miserable on the bus ride. A friend surprised me with concert tickets that evening.,miserable,neg-word,strong,near,pos,
-41,14,agree,I felt miserable on the bus ride. I missed my stop and had to walk home in the rain.,miserable,neg-word,strong,near,neg,
-42,14,context,A friend surprised me with concert tickets that evening.,,neg-word,strong,near,pos,
-43,15,conflict,The lecture was brilliant. It covered graph algorithms for most of the hour. My laptop died halfway through my notes.,brilliant,pos-word,strong,far,neg,
-44,15,agree,The lecture was brilliant. It covered graph algorithms for most of the hour. The professor posted all the slides afterward.,brilliant,pos-word,strong,far,pos,
-45,15,context,My laptop died halfway through my notes.,,pos-word,strong,far,neg,
-46,16,conflict,I was furious about the delay. The flight was supposed to leave at eight. The airline gave me a free ticket for later.,furious,neg-word,strong,far,pos,
-47,16,agree,I was furious about the delay. The flight was supposed to leave at eight. I missed my connecting flight.,furious,neg-word,strong,far,neg,
-48,16,context,The airline gave me a free ticket for later.,,neg-word,strong,far,pos,
-49,17,conflict,I was thrilled about the job offer. The company withdrew it the next morning.,thrilled,pos-word,strong,near,neg,
-50,17,agree,I was thrilled about the job offer. They raised the salary by ten percent.,thrilled,pos-word,strong,near,pos,
-51,17,context,The company withdrew it the next morning.,,pos-word,strong,near,neg,
-52,18,conflict,The noise from the neighbors was annoying. They invited me to a barbecue on Sunday.,annoying,neg-word,strong,near,pos,
-53,18,agree,The noise from the neighbors was annoying. I got only four hours of sleep.,annoying,neg-word,strong,near,neg,
-54,18,context,They invited me to a barbecue on Sunday.,,neg-word,strong,near,pos,
-55,19,conflict,I was delighted with my new apartment. It is on the third floor of an older building. The pipes burst on the first night.,delighted,pos-word,strong,far,neg,
-56,19,agree,I was delighted with my new apartment. It is on the third floor of an older building. The landlord waived the first month of rent.,delighted,pos-word,strong,far,pos,
-57,19,context,The pipes burst on the first night.,,pos-word,strong,far,neg,
-58,20,conflict,The lecture was boring. It was about tax law for ninety minutes. The professor canceled the quiz.,boring,neg-word,strong,far,pos,
-59,20,agree,The lecture was boring. It was about tax law for ninety minutes. I almost missed the deadline for the assignment.,boring,neg-word,strong,far,neg,
-60,20,context,The professor canceled the quiz.,,neg-word,strong,far,pos,
-61,21,conflict,The service at the restaurant was superb. The bill was charged to my card twice.,superb,pos-word,strong,near,neg,
-62,21,agree,The service at the restaurant was superb. The manager gave us a free appetizer.,superb,pos-word,strong,near,pos,
-63,21,context,The bill was charged to my card twice.,,pos-word,strong,near,neg,
-64,22,conflict,The new album was disappointing. A friend gave me a signed copy.,disappointing,neg-word,strong,near,pos,
-65,22,agree,The new album was disappointing. The disc skipped on the second track.,disappointing,neg-word,strong,near,neg,
-66,22,context,A friend gave me a signed copy.,,neg-word,strong,near,pos,
-67,23,conflict,The weather was perfect for the picnic. We set up near the pond in the park. A swarm of ants ruined the sandwiches.,perfect,pos-word,strong,far,neg,
-68,23,agree,The weather was perfect for the picnic. We set up near the pond in the park. We stayed until the sun went down.,perfect,pos-word,strong,far,pos,
-69,23,context,A swarm of ants ruined the sandwiches.,,pos-word,strong,far,neg,
-70,24,conflict,That was the worst haircut of my life. I went to a salon near my apartment. A coworker complimented it the next morning.,worst,neg-word,strong,far,pos,
-71,24,agree,That was the worst haircut of my life. I went to a salon near my apartment. I wore a hat for two weeks.,worst,neg-word,strong,far,neg,
-72,24,context,A coworker complimented it the next morning.,,neg-word,strong,far,pos,
-73,25,conflict,The garden party was lovely. A storm knocked over the tent.,lovely,pos-word,strong,near,neg,
-74,25,agree,The garden party was lovely. I won a prize in the raffle.,lovely,pos-word,strong,near,pos,
-75,25,context,A storm knocked over the tent.,,pos-word,strong,near,neg,
-76,26,conflict,I hate my old laptop. My brother gave me his spare one.,hate,neg-word,strong,near,pos,
-77,26,agree,I hate my old laptop. The screen froze before my presentation.,hate,neg-word,strong,near,neg,
-78,26,context,My brother gave me his spare one.,,neg-word,strong,near,pos,
-79,27,conflict,The workshop was excellent. It ran for three hours on Thursday. I realized I had signed up for the wrong session.,excellent,pos-word,strong,far,neg,
-80,27,agree,The workshop was excellent. It ran for three hours on Thursday. I received a certificate at the end.,excellent,pos-word,strong,far,pos,
-81,27,context,I realized I had signed up for the wrong session.,,pos-word,strong,far,neg,
-82,28,conflict,The cashier was rude. It happened at a grocery store on Sunday. The store manager gave me a refund.,rude,neg-word,strong,far,pos,
-83,28,agree,The cashier was rude. It happened at a grocery store on Sunday. I waited in line for twenty more minutes.,rude,neg-word,strong,far,neg,
-84,28,context,The store manager gave me a refund.,,neg-word,strong,far,pos,
-85,29,conflict,The game was great. Our team lost in the final minute.,great,pos-word,strong,near,neg,
-86,29,agree,The game was great. Our team won in overtime.,great,pos-word,strong,near,pos,
-87,29,context,Our team lost in the final minute.,,pos-word,strong,near,neg,
-88,30,conflict,The weather was nasty all week. The school announced a snow day on Friday.,nasty,neg-word,strong,near,pos,
-89,30,agree,The weather was nasty all week. My umbrella broke on Tuesday.,nasty,neg-word,strong,near,neg,
-90,30,context,The school announced a snow day on Friday.,,neg-word,strong,near,pos,
-91,31,conflict,The view from the hotel was gorgeous. Our room was on the twelfth floor. The elevator was out of service all week.,gorgeous,pos-word,strong,far,neg,
-92,31,agree,The view from the hotel was gorgeous. Our room was on the twelfth floor. The staff moved us to a bigger room.,gorgeous,pos-word,strong,far,pos,
-93,31,context,The elevator was out of service all week.,,pos-word,strong,far,neg,
-94,32,conflict,The team's defense was pathetic. We watched the match at my cousin's house. They still advanced to the next round.,pathetic,neg-word,strong,far,pos,
-95,32,agree,The team's defense was pathetic. We watched the match at my cousin's house. They gave up five goals in the first half.,pathetic,neg-word,strong,far,neg,
-96,32,context,They still advanced to the next round.,,neg-word,strong,far,pos,
-97,33,conflict,I cherish my grandmother's recipe book. A leak stained half of the pages.,cherish,pos-word,strong,near,neg,
-98,33,agree,I cherish my grandmother's recipe book. My cousin scanned every page for me.,cherish,pos-word,strong,near,pos,
-99,33,context,A leak stained half of the pages.,,pos-word,strong,near,neg,
-100,34,conflict,The new app was useless. The company refunded me automatically.,useless,neg-word,strong,near,pos,
-101,34,agree,The new app was useless. It deleted my notes after an update.,useless,neg-word,strong,near,neg,
-102,34,context,The company refunded me automatically.,,neg-word,strong,near,pos,
-103,35,conflict,My manager praised my presentation. I gave it to the whole team last week. The client canceled the contract on Monday.,praised,pos-word,strong,far,neg,
-104,35,agree,My manager praised my presentation. I gave it to the whole team last week. The client signed the contract on Monday.,praised,pos-word,strong,far,pos,
-105,35,context,The client canceled the contract on Monday.,,pos-word,strong,far,neg,
-106,36,conflict,The couch was ugly. We found it at a yard sale. A buyer paid double the price for it.,ugly,neg-word,strong,far,pos,
-107,36,agree,The couch was ugly. We found it at a yard sale. A leg snapped off the first week.,ugly,neg-word,strong,far,neg,
-108,36,context,A buyer paid double the price for it.,,neg-word,strong,far,pos,
-109,37,conflict,I was impressed by the new library. The doors were locked when I arrived.,impressed,pos-word,strong,near,neg,
-110,37,agree,I was impressed by the new library. I got a free tote bag at the entrance.,impressed,pos-word,strong,near,pos,
-111,37,context,The doors were locked when I arrived.,,pos-word,strong,near,neg,
-112,38,conflict,The heat was unbearable. The building turned on the air conditioning at noon.,unbearable,neg-word,strong,near,pos,
-113,38,agree,The heat was unbearable. The fan stopped working at noon.,unbearable,neg-word,strong,near,neg,
-114,38,context,The building turned on the air conditioning at noon.,,neg-word,strong,near,pos,
-115,39,conflict,I was grateful for the ride home. It was raining when we left the office. The driver took a wrong turn and we sat in traffic for an hour.,grateful,pos-word,strong,far,neg,
-116,39,agree,I was grateful for the ride home. It was raining when we left the office. The driver stopped to get us coffee.,grateful,pos-word,strong,far,pos,
-117,39,context,The driver took a wrong turn and we sat in traffic for an hour.,,pos-word,strong,far,neg,
-118,40,conflict,The state of the kitchen was appalling. We moved in at the start of the month. The landlord offered to pay for a cleaner.,appalling,neg-word,strong,far,pos,
-119,40,agree,The state of the kitchen was appalling. We moved in at the start of the month. A pipe under the sink started leaking.,appalling,neg-word,strong,far,neg,
-120,40,context,The landlord offered to pay for a cleaner.,,neg-word,strong,far,pos,
-121,41,conflict,The roller coaster was thrilling. I dropped my phone from the top.,thrilling,pos-word,strong,near,neg,
-122,41,agree,The roller coaster was thrilling. We got to ride it a second time for free.,thrilling,pos-word,strong,near,pos,
-123,41,context,I dropped my phone from the top.,,pos-word,strong,near,neg,
-124,42,conflict,The tax form was frustrating. The accountant finished it for free.,frustrating,neg-word,strong,near,pos,
-125,42,agree,The tax form was frustrating. The website crashed right before I could submit.,frustrating,neg-word,strong,near,neg,
-126,42,context,The accountant finished it for free.,,neg-word,strong,near,pos,
-127,43,conflict,The birthday dinner was terrific. Eight of us sat around one long table. My brother forgot the cake at home.,terrific,pos-word,strong,far,neg,
-128,43,agree,The birthday dinner was terrific. Eight of us sat around one long table. The chef brought out a surprise dessert.,terrific,pos-word,strong,far,pos,
-129,43,context,My brother forgot the cake at home.,,pos-word,strong,far,neg,
-130,44,conflict,I felt sad about the move. We packed up the truck on Saturday. My new neighbors brought over a welcome basket.,sad,neg-word,strong,far,pos,
-131,44,agree,I felt sad about the move. We packed up the truck on Saturday. I left my favorite lamp behind.,sad,neg-word,strong,far,neg,
-132,44,context,My new neighbors brought over a welcome basket.,,neg-word,strong,far,pos,
-133,45,conflict,The wedding ceremony was beautiful. The rings went missing before the vows.,beautiful,pos-word,strong,near,neg,
-134,45,agree,The wedding ceremony was beautiful. The photographer sent us the album early.,beautiful,pos-word,strong,near,pos,
-135,45,context,The rings went missing before the vows.,,pos-word,strong,near,neg,
-136,46,conflict,I regret buying the used car. A buyer offered me more than I paid.,regret,neg-word,strong,near,pos,
-137,46,agree,I regret buying the used car. The engine failed on the highway.,regret,neg-word,strong,near,neg,
-138,46,context,A buyer offered me more than I paid.,,neg-word,strong,near,pos,
-139,47,conflict,The new video game is awesome. I bought it on the day it came out. The save file got corrupted after one week.,awesome,pos-word,strong,far,neg,
-140,47,agree,The new video game is awesome. I bought it on the day it came out. It came with a bonus level at no cost.,awesome,pos-word,strong,far,pos,
-141,47,context,The save file got corrupted after one week.,,pos-word,strong,far,neg,
-142,48,conflict,I dislike the new office layout. The move happened over a weekend in March. My desk now has a window.,dislike,neg-word,strong,far,pos,
-143,48,agree,I dislike the new office layout. The move happened over a weekend in March. I now sit next to the noisy printer.,dislike,neg-word,strong,far,neg,
-144,48,context,My desk now has a window.,,neg-word,strong,far,pos,
-145,49,conflict,I felt relieved after the exam. The grades were posted and I had failed.,relieved,pos-word,strong,near,neg,
-146,49,agree,I felt relieved after the exam. The grades were posted and I had passed.,relieved,pos-word,strong,near,pos,
-147,49,context,The grades were posted and I had failed.,,pos-word,strong,near,neg,
-148,50,conflict,The dinner was awkward. The host gave us leftovers to take home.,awkward,neg-word,strong,near,pos,
-149,50,agree,The dinner was awkward. Someone knocked a glass onto the floor.,awkward,neg-word,strong,near,neg,
-150,50,context,The host gave us leftovers to take home.,,neg-word,strong,near,pos,
-151,51,conflict,The puzzle was satisfying to finish. It had a thousand pieces and a forest scene. My dog ate half of the pieces the next day.,satisfying,pos-word,strong,far,neg,
-152,51,agree,The puzzle was satisfying to finish. It had a thousand pieces and a forest scene. My sister gave me a bigger one the next day.,satisfying,pos-word,strong,far,pos,
-153,51,context,My dog ate half of the pieces the next day.,,pos-word,strong,far,neg,
-154,52,conflict,The morning was gloomy. I woke up before six for an early shift. A coworker brought in fresh donuts.,gloomy,neg-word,strong,far,pos,
-155,52,agree,The morning was gloomy. I woke up before six for an early shift. My train was delayed by forty minutes.,gloomy,neg-word,strong,far,neg,
-156,52,context,A coworker brought in fresh donuts.,,neg-word,strong,far,pos,
-157,53,conflict,I was proud of my little brother. He quit the team the next week.,proud,pos-word,strong,near,neg,
-158,53,agree,I was proud of my little brother. He earned a scholarship the next week.,proud,pos-word,strong,near,pos,
-159,53,context,He quit the team the next week.,,pos-word,strong,near,neg,
-160,54,conflict,The pizza was lousy. The owner sent over a free salad.,lousy,neg-word,strong,near,pos,
-161,54,agree,The pizza was lousy. I found a hair in my second slice.,lousy,neg-word,strong,near,neg,
-162,54,context,The owner sent over a free salad.,,neg-word,strong,near,pos,
-163,55,conflict,The holiday party was joyful. About thirty people came to the office. The heater stopped working at midnight.,joyful,pos-word,strong,far,neg,
-164,55,agree,The holiday party was joyful. About thirty people came to the office. Everyone went home with a gift basket.,joyful,pos-word,strong,far,pos,
-165,55,context,The heater stopped working at midnight.,,pos-word,strong,far,neg,
-166,56,conflict,The documentary was dull. We watched it on a rainy afternoon. A friend offered me tickets to a show.,dull,neg-word,strong,far,pos,
-167,56,agree,The documentary was dull. We watched it on a rainy afternoon. I fell asleep before the end.,dull,neg-word,strong,far,neg,
-168,56,context,A friend offered me tickets to a show.,,neg-word,strong,far,pos,
-169,57,conflict,The old town was charming. Our wallets were stolen on the tram.,charming,pos-word,strong,near,neg,
-170,57,agree,The old town was charming. A shopkeeper gave us free postcards.,charming,pos-word,strong,near,pos,
-171,57,context,Our wallets were stolen on the tram.,,pos-word,strong,near,neg,
-172,58,conflict,The delay at the airport was irritating. The airline handed out free meal vouchers.,irritating,neg-word,strong,near,pos,
-173,58,agree,The delay at the airport was irritating. My luggage was lost.,irritating,neg-word,strong,near,neg,
-174,58,context,The airline handed out free meal vouchers.,,neg-word,strong,near,pos,
-175,59,conflict,The cathedral was magnificent. We arrived there on a Wednesday morning. They closed the doors right before we got in.,magnificent,pos-word,strong,far,neg,
-176,59,agree,The cathedral was magnificent. We arrived there on a Wednesday morning. A guide offered us a private tour.,magnificent,pos-word,strong,far,pos,
-177,59,context,They closed the doors right before we got in.,,pos-word,strong,far,neg,
-178,60,conflict,I dreaded the dentist appointment. It was scheduled for Thursday morning. The dentist said my teeth were in great shape.,dreaded,neg-word,strong,far,pos,
-179,60,agree,I dreaded the dentist appointment. It was scheduled for Thursday morning. I needed three fillings.,dreaded,neg-word,strong,far,neg,
-180,60,context,The dentist said my teeth were in great shape.,,neg-word,strong,far,pos,
-181,61,conflict,The train ride was pleasant. The train stopped for two hours in a field.,pleasant,pos-word,strong,near,neg,
-182,61,agree,The train ride was pleasant. The train arrived twenty minutes early.,pleasant,pos-word,strong,near,pos,
-183,61,context,The train stopped for two hours in a field.,,pos-word,strong,near,neg,
-184,62,conflict,The week was stressful. My boss gave me Friday off.,stressful,neg-word,strong,near,pos,
-185,62,agree,The week was stressful. My landlord raised the rent on Friday.,stressful,neg-word,strong,near,neg,
-186,62,context,My boss gave me Friday off.,,neg-word,strong,near,pos,
-187,63,conflict,The new mattress is comfortable. It was delivered in a large box on Monday. My back hurt after one week.,comfortable,pos-word,strong,far,neg,
-188,63,agree,The new mattress is comfortable. It was delivered in a large box on Monday. I slept eight hours every night.,comfortable,pos-word,strong,far,pos,
-189,63,context,My back hurt after one week.,,pos-word,strong,far,neg,
-190,64,conflict,The bus was horrid. It was packed on a Monday morning. A seat opened up near the window.,horrid,neg-word,strong,far,pos,
-191,64,agree,The bus was horrid. It was packed on a Monday morning. A stranger spilled coffee on my bag.,horrid,neg-word,strong,far,neg,
-192,64,context,A seat opened up near the window.,,neg-word,strong,far,pos,
-193,65,conflict,The sunset was stunning. A mosquito bit me about ten times.,stunning,pos-word,strong,near,neg,
-194,65,agree,The sunset was stunning. A passing boat honked and waved at us.,stunning,pos-word,strong,near,pos,
-195,65,context,A mosquito bit me about ten times.,,pos-word,strong,near,neg,
-196,66,conflict,I felt bitter about the loss. A friend invited me on a weekend trip.,bitter,neg-word,strong,near,pos,
-197,66,agree,I felt bitter about the loss. The coach removed me from the next game.,bitter,neg-word,strong,near,neg,
-198,66,context,A friend invited me on a weekend trip.,,neg-word,strong,near,pos,
-199,67,conflict,That was the best pizza I ever had. I ate it at a small shop by the harbor. I felt sick for the rest of the night.,best,pos-word,strong,far,neg,
-200,67,agree,That was the best pizza I ever had. I ate it at a small shop by the harbor. The owner gave me a coupon for next time.,best,pos-word,strong,far,pos,
-201,67,context,I felt sick for the rest of the night.,,pos-word,strong,far,neg,
-202,68,conflict,The old house was creepy. We visited it on a cloudy Sunday. The realtor lowered the price by thousands.,creepy,neg-word,strong,far,pos,
-203,68,agree,The old house was creepy. We visited it on a cloudy Sunday. The basement flooded in the first storm.,creepy,neg-word,strong,far,neg,
-204,68,context,The realtor lowered the price by thousands.,,neg-word,strong,far,pos,
-205,69,conflict,I love my new running shoes. The sole came apart after two runs.,love,pos-word,strong,near,neg,
-206,69,agree,I love my new running shoes. I shaved a minute off my time.,love,pos-word,strong,near,pos,
-207,69,context,The sole came apart after two runs.,,pos-word,strong,near,neg,
-208,70,conflict,The party was lame. I ran into an old friend by the door.,lame,neg-word,strong,near,pos,
-209,70,agree,The party was lame. The music stopped at ten and everyone left.,lame,neg-word,strong,near,neg,
-210,70,context,I ran into an old friend by the door.,,neg-word,strong,near,pos,
-211,71,conflict,I was glad to see my old friend. We met at a cafe near the train station. He borrowed money and never paid it back.,glad,pos-word,strong,far,neg,
-212,71,agree,I was glad to see my old friend. We met at a cafe near the train station. He invited me to his wedding.,glad,pos-word,strong,far,pos,
-213,71,context,He borrowed money and never paid it back.,,pos-word,strong,far,neg,
-214,72,conflict,The haunted house was scary. It was set up in an old warehouse. I got a free pass for the next visit.,scary,neg-word,strong,far,pos,
-215,72,agree,The haunted house was scary. It was set up in an old warehouse. I tripped on the stairs while running out.,scary,neg-word,strong,far,neg,
-216,72,context,I got a free pass for the next visit.,,neg-word,strong,far,pos,
-217,73,conflict,I was happy with my haircut. My hair turned orange after the dye.,happy,pos-word,strong,near,neg,
-218,73,agree,I was happy with my haircut. A stranger asked where I got it done.,happy,pos-word,strong,near,pos,
-219,73,context,My hair turned orange after the dye.,,pos-word,strong,near,neg,
-220,74,conflict,I was disgusted by the bathroom. The manager gave us free drinks.,disgusted,neg-word,strong,near,pos,
-221,74,agree,I was disgusted by the bathroom. The sink was clogged and water covered the floor.,disgusted,neg-word,strong,near,neg,
-222,74,context,The manager gave us free drinks.,,neg-word,strong,near,pos,
-223,75,conflict,The team's performance was outstanding. They worked on it for six weeks. The project was cancelled the next day.,outstanding,pos-word,strong,far,neg,
-224,75,agree,The team's performance was outstanding. They worked on it for six weeks. The project got extra funding the next day.,outstanding,pos-word,strong,far,pos,
-225,75,context,The project was cancelled the next day.,,pos-word,strong,far,neg,
-226,76,conflict,I feared the interview. It was set for ten on a Tuesday. The interviewer offered me the job on the spot.,feared,neg-word,strong,far,pos,
-227,76,agree,I feared the interview. It was set for ten on a Tuesday. I forgot my printed copies at home.,feared,neg-word,strong,far,neg,
-228,76,context,The interviewer offered me the job on the spot.,,neg-word,strong,far,pos,
-229,77,conflict,The software update was flawless. My files disappeared the next day.,flawless,pos-word,strong,near,neg,
-230,77,agree,The software update was flawless. My battery life doubled the next day.,flawless,pos-word,strong,near,pos,
-231,77,context,My files disappeared the next day.,,pos-word,strong,near,neg,
-232,78,conflict,The sound quality was poor. The venue refunded half of our tickets.,poor,neg-word,strong,near,pos,
-233,78,agree,The sound quality was poor. The speakers cut out during the encore.,poor,neg-word,strong,near,neg,
-234,78,context,The venue refunded half of our tickets.,,neg-word,strong,near,pos,
-235,79,conflict,The swim was refreshing. The lake is a short walk from our house. I got a cramp in my leg near the dock.,refreshing,pos-word,strong,far,neg,
-236,79,agree,The swim was refreshing. The lake is a short walk from our house. I met a friendly neighbor at the shore.,refreshing,pos-word,strong,far,pos,
-237,79,context,I got a cramp in my leg near the dock.,,pos-word,strong,far,neg,
-238,80,conflict,The apples were rotten. I bought them at a market on Saturday. The store gave me a coupon for the next purchase.,rotten,neg-word,strong,far,pos,
-239,80,agree,The apples were rotten. I bought them at a market on Saturday. I had to throw the whole bag away.,rotten,neg-word,strong,far,neg,
-240,80,context,The store gave me a coupon for the next purchase.,,neg-word,strong,far,pos,
-241,81,conflict,The speaker was inspiring. The microphone cut out during the questions.,inspiring,pos-word,strong,near,neg,
-242,81,agree,The speaker was inspiring. She signed copies of her book for everyone.,inspiring,pos-word,strong,near,pos,
-243,81,context,The microphone cut out during the questions.,,pos-word,strong,near,neg,
-244,82,conflict,The paperwork was tedious. The clerk processed it in five minutes.,tedious,neg-word,strong,near,pos,
-245,82,agree,The paperwork was tedious. I had to redo every form from scratch.,tedious,neg-word,strong,near,neg,
-246,82,context,The clerk processed it in five minutes.,,neg-word,strong,near,pos,
-247,83,conflict,The dress shop was fabulous. It is on the main street near the bank. They lost my order and charged me anyway.,fabulous,pos-word,strong,far,neg,
-248,83,agree,The dress shop was fabulous. It is on the main street near the bank. They hemmed my dress for free.,fabulous,pos-word,strong,far,pos,
-249,83,context,They lost my order and charged me anyway.,,pos-word,strong,far,neg,
-250,84,conflict,The chair was uncomfortable. It was in the meeting room on the second floor. The office bought me a new one.,uncomfortable,neg-word,strong,far,pos,
-251,84,agree,The chair was uncomfortable. It was in the meeting room on the second floor. My back ached by the end of the day.,uncomfortable,neg-word,strong,far,neg,
-252,84,context,The office bought me a new one.,,neg-word,strong,far,pos,
-253,85,conflict,I admire my neighbor's garden. A storm flattened most of the plants.,admire,pos-word,strong,near,neg,
-254,85,agree,I admire my neighbor's garden. She gave me a pot of tomato seedlings.,admire,pos-word,strong,near,pos,
-255,85,context,A storm flattened most of the plants.,,pos-word,strong,near,neg,
-256,86,conflict,I loathe waiting in lines. The clerk waved me to the front.,loathe,neg-word,strong,near,pos,
-257,86,agree,I loathe waiting in lines. The queue took over an hour.,loathe,neg-word,strong,near,neg,
-258,86,context,The clerk waved me to the front.,,neg-word,strong,near,pos,
-259,87,conflict,The waiter was cheerful. He came to our table soon after we sat down. He brought the wrong order three times.,cheerful,pos-word,strong,far,neg,
-260,87,agree,The waiter was cheerful. He came to our table soon after we sat down. He added a free coffee to our table.,cheerful,pos-word,strong,far,pos,
-261,87,context,He brought the wrong order three times.,,pos-word,strong,far,neg,
-262,88,conflict,The printer was hopeless. It sits in the corner of the office. The technician fixed it in a minute.,hopeless,neg-word,strong,far,pos,
-263,88,agree,The printer was hopeless. It sits in the corner of the office. It jammed on every page.,hopeless,neg-word,strong,far,neg,
-264,88,context,The technician fixed it in a minute.,,neg-word,strong,far,pos,
-265,89,conflict,The volunteer shift was rewarding. I left my bag on the bus afterward.,rewarding,pos-word,strong,near,neg,
-266,89,agree,The volunteer shift was rewarding. The organizer sent me a thank-you card.,rewarding,pos-word,strong,near,pos,
-267,89,context,I left my bag on the bus afterward.,,pos-word,strong,near,neg,
-268,90,conflict,The hotel breakfast was dismal. The chef made me eggs to order.,dismal,neg-word,strong,near,pos,
-269,90,agree,The hotel breakfast was dismal. The coffee was cold and the toast was burnt.,dismal,neg-word,strong,near,neg,
-270,90,context,The chef made me eggs to order.,,neg-word,strong,near,pos,
-271,91,conflict,The fireworks were spectacular. We watched from the hill behind the school. A stray rocket landed near my car.,spectacular,pos-word,strong,far,neg,
-272,91,agree,The fireworks were spectacular. We watched from the hill behind the school. A neighbor shared hot chocolate with us.,spectacular,pos-word,strong,far,pos,
-273,91,context,A stray rocket landed near my car.,,pos-word,strong,far,neg,
-274,92,conflict,The driver was obnoxious. He picked us up near the hotel at night. He dropped us off at the door for free.,obnoxious,neg-word,strong,far,pos,
-275,92,agree,The driver was obnoxious. He picked us up near the hotel at night. He took a longer route and the fare went up.,obnoxious,neg-word,strong,far,neg,
-276,92,context,He dropped us off at the door for free.,,neg-word,strong,far,pos,
-277,93,conflict,The cabin was cozy. The roof leaked all night.,cozy,pos-word,strong,near,neg,
-278,93,agree,The cabin was cozy. The owner left us a basket of firewood.,cozy,pos-word,strong,near,pos,
-279,93,context,The roof leaked all night.,,pos-word,strong,near,neg,
-280,94,conflict,The weather on the trip was wretched. We found a cheap indoor water park.,wretched,neg-word,strong,near,pos,
-281,94,agree,The weather on the trip was wretched. We stayed in the room for three days.,wretched,neg-word,strong,near,neg,
-282,94,context,We found a cheap indoor water park.,,neg-word,strong,near,pos,
-283,95,conflict,The auction was exciting. It started at ten in the morning in a town hall. I got outbid on every item.,exciting,pos-word,strong,far,neg,
-284,95,agree,The auction was exciting. It started at ten in the morning in a town hall. I won the painting I wanted.,exciting,pos-word,strong,far,pos,
-285,95,context,I got outbid on every item.,,pos-word,strong,far,neg,
-286,96,conflict,The forecast looked grim. I checked it on my phone on Thursday. The rain skipped our town.,grim,neg-word,strong,far,pos,
-287,96,agree,The forecast looked grim. I checked it on my phone on Thursday. The storm knocked out the power.,grim,neg-word,strong,far,neg,
-288,96,context,The rain skipped our town.,,neg-word,strong,far,pos,
-289,97,conflict,The bakery's croissants were incredible. The shop closed down a week later.,incredible,pos-word,strong,near,neg,
-290,97,agree,The bakery's croissants were incredible. The baker gave me a free loaf.,incredible,pos-word,strong,near,pos,
-291,97,context,The shop closed down a week later.,,pos-word,strong,near,neg,
-292,98,conflict,The new brand was inferior. The store offered a full refund.,inferior,neg-word,strong,near,pos,
-293,98,agree,The new brand was inferior. It stopped working within a week.,inferior,neg-word,strong,near,neg,
-294,98,context,The store offered a full refund.,,neg-word,strong,near,pos,
-295,99,conflict,I was pleased with the repair. A technician came by on Wednesday morning. The washing machine broke again after two days.,pleased,pos-word,strong,far,neg,
-296,99,agree,I was pleased with the repair. A technician came by on Wednesday morning. The technician extended the warranty by a year.,pleased,pos-word,strong,far,pos,
-297,99,context,The washing machine broke again after two days.,,pos-word,strong,far,neg,
-298,100,conflict,The first date was disastrous. We met at a cafe near the park. She asked me out again.,disastrous,neg-word,strong,far,pos,
-299,100,agree,The first date was disastrous. We met at a cafe near the park. I spilled soup on her lap.,disastrous,neg-word,strong,far,neg,
-300,100,context,She asked me out again.,,neg-word,strong,far,pos,
+id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_label
+1,1,conflict,I loved the new ramen shop. I got food poisoning that night.,loved,pos-word,strong,near,neg
+2,1,agree,I loved the new ramen shop. I got a free dessert that night.,loved,pos-word,strong,near,pos
+3,1,context,I got food poisoning that night.,,pos-word,strong,near,neg
+4,2,conflict,I hated the new gym. I won a free year of membership that week.,hated,neg-word,strong,near,pos
+5,2,agree,I hated the new gym. I pulled a muscle on my first day.,hated,neg-word,strong,near,neg
+6,2,context,I won a free year of membership that week.,,neg-word,strong,near,pos
+7,3,conflict,I adored the new bookstore downtown. It opened last month near the old bakery. I lost my wallet that afternoon.,adored,pos-word,strong,far,neg
+8,3,agree,I adored the new bookstore downtown. It opened last month near the old bakery. I found a rare first edition that afternoon.,adored,pos-word,strong,far,pos
+9,3,context,I lost my wallet that afternoon.,,pos-word,strong,far,neg
+10,4,conflict,The hotel was terrible. We arrived late on Tuesday after a long drive. The staff upgraded us to a suite.,terrible,neg-word,strong,far,pos
+11,4,agree,The hotel was terrible. We arrived late on Tuesday after a long drive. The shower flooded the bathroom floor.,terrible,neg-word,strong,far,neg
+12,4,context,The staff upgraded us to a suite.,,neg-word,strong,far,pos
+13,5,conflict,I enjoyed the hiking trip. I sprained my ankle on the way down.,enjoyed,pos-word,strong,near,neg
+14,5,agree,I enjoyed the hiking trip. I reached the summit before noon.,enjoyed,pos-word,strong,near,pos
+15,5,context,I sprained my ankle on the way down.,,pos-word,strong,near,neg
+16,6,conflict,The movie was awful. A stranger paid for my ticket.,awful,neg-word,strong,near,pos
+17,6,agree,The movie was awful. A spilled drink soaked my jacket.,awful,neg-word,strong,near,neg
+18,6,context,A stranger paid for my ticket.,,neg-word,strong,near,pos
+19,7,conflict,The soup was delicious. It came with bread and a small salad. I spilled it all over my laptop.,delicious,pos-word,strong,far,neg
+20,7,agree,The soup was delicious. It came with bread and a small salad. I asked for a second bowl.,delicious,pos-word,strong,far,pos
+21,7,context,I spilled it all over my laptop.,,pos-word,strong,far,neg
+22,8,conflict,The commute was dreadful. I take the same bus every weekday. I got a seat and finished my book.,dreadful,neg-word,strong,far,pos
+23,8,agree,The commute was dreadful. I take the same bus every weekday. The bus broke down and I was late for work.,dreadful,neg-word,strong,far,neg
+24,8,context,I got a seat and finished my book.,,neg-word,strong,far,pos
+25,9,conflict,The concert was fantastic. Someone stole my jacket from the coat check.,fantastic,pos-word,strong,near,neg
+26,9,agree,The concert was fantastic. The band played two extra songs at the end.,fantastic,pos-word,strong,near,pos
+27,9,context,Someone stole my jacket from the coat check.,,pos-word,strong,near,neg
+28,10,conflict,The meeting was horrible. My boss announced a surprise bonus.,horrible,neg-word,strong,near,pos
+29,10,agree,The meeting was horrible. I was assigned extra work for the weekend.,horrible,neg-word,strong,near,neg
+30,10,context,My boss announced a surprise bonus.,,neg-word,strong,near,pos
+31,11,conflict,The weekend trip was wonderful. We left on Friday evening and returned on Sunday. Our car broke down on the drive home.,wonderful,pos-word,strong,far,neg
+32,11,agree,The weekend trip was wonderful. We left on Friday evening and returned on Sunday. We got upgraded to a window seat on the flight back.,wonderful,pos-word,strong,far,pos
+33,11,context,Our car broke down on the drive home.,,pos-word,strong,far,neg
+34,12,conflict,The cafeteria lunch was disgusting. It was served at noon on a plastic tray. A friend treated me to dessert afterward.,disgusting,neg-word,strong,far,pos
+35,12,agree,The cafeteria lunch was disgusting. It was served at noon on a plastic tray. I spent the afternoon with a stomachache.,disgusting,neg-word,strong,far,neg
+36,12,context,A friend treated me to dessert afterward.,,neg-word,strong,far,pos
+37,13,conflict,The new camera is amazing. The lens fell off and landed on the pavement.,amazing,pos-word,strong,near,neg
+38,13,agree,The new camera is amazing. It came with a free carrying case.,amazing,pos-word,strong,near,pos
+39,13,context,The lens fell off and landed on the pavement.,,pos-word,strong,near,neg
+40,14,conflict,I felt miserable on the bus ride. A friend surprised me with concert tickets that evening.,miserable,neg-word,strong,near,pos
+41,14,agree,I felt miserable on the bus ride. I missed my stop and had to walk home in the rain.,miserable,neg-word,strong,near,neg
+42,14,context,A friend surprised me with concert tickets that evening.,,neg-word,strong,near,pos
+43,15,conflict,The lecture was brilliant. It covered graph algorithms for most of the hour. My laptop died halfway through my notes.,brilliant,pos-word,strong,far,neg
+44,15,agree,The lecture was brilliant. It covered graph algorithms for most of the hour. The professor posted all the slides afterward.,brilliant,pos-word,strong,far,pos
+45,15,context,My laptop died halfway through my notes.,,pos-word,strong,far,neg
+46,16,conflict,I was furious about the delay. The flight was supposed to leave at eight. The airline gave me a free ticket for later.,furious,neg-word,strong,far,pos
+47,16,agree,I was furious about the delay. The flight was supposed to leave at eight. I missed my connecting flight.,furious,neg-word,strong,far,neg
+48,16,context,The airline gave me a free ticket for later.,,neg-word,strong,far,pos
+49,17,conflict,I was thrilled about the job offer. The company withdrew it the next morning.,thrilled,pos-word,strong,near,neg
+50,17,agree,I was thrilled about the job offer. They raised the salary by ten percent.,thrilled,pos-word,strong,near,pos
+51,17,context,The company withdrew it the next morning.,,pos-word,strong,near,neg
+52,18,conflict,The noise from the neighbors was annoying. They invited me to a barbecue on Sunday.,annoying,neg-word,strong,near,pos
+53,18,agree,The noise from the neighbors was annoying. I got only four hours of sleep.,annoying,neg-word,strong,near,neg
+54,18,context,They invited me to a barbecue on Sunday.,,neg-word,strong,near,pos
+55,19,conflict,I was delighted with my new apartment. It is on the third floor of an older building. The pipes burst on the first night.,delighted,pos-word,strong,far,neg
+56,19,agree,I was delighted with my new apartment. It is on the third floor of an older building. The landlord waived the first month of rent.,delighted,pos-word,strong,far,pos
+57,19,context,The pipes burst on the first night.,,pos-word,strong,far,neg
+58,20,conflict,The lecture was boring. It was about tax law for ninety minutes. The professor canceled the quiz.,boring,neg-word,strong,far,pos
+59,20,agree,The lecture was boring. It was about tax law for ninety minutes. I almost missed the deadline for the assignment.,boring,neg-word,strong,far,neg
+60,20,context,The professor canceled the quiz.,,neg-word,strong,far,pos
+61,21,conflict,The service at the restaurant was superb. The bill was charged to my card twice.,superb,pos-word,strong,near,neg
+62,21,agree,The service at the restaurant was superb. The manager gave us a free appetizer.,superb,pos-word,strong,near,pos
+63,21,context,The bill was charged to my card twice.,,pos-word,strong,near,neg
+64,22,conflict,The new album was disappointing. A friend gave me a signed copy.,disappointing,neg-word,strong,near,pos
+65,22,agree,The new album was disappointing. The disc skipped on the second track.,disappointing,neg-word,strong,near,neg
+66,22,context,A friend gave me a signed copy.,,neg-word,strong,near,pos
+67,23,conflict,The weather was perfect for the picnic. We set up near the pond in the park. A swarm of ants ruined the sandwiches.,perfect,pos-word,strong,far,neg
+68,23,agree,The weather was perfect for the picnic. We set up near the pond in the park. We stayed until the sun went down.,perfect,pos-word,strong,far,pos
+69,23,context,A swarm of ants ruined the sandwiches.,,pos-word,strong,far,neg
+70,24,conflict,That was the worst haircut of my life. I went to a salon near my apartment. A coworker complimented it the next morning.,worst,neg-word,strong,far,pos
+71,24,agree,That was the worst haircut of my life. I went to a salon near my apartment. I wore a hat for two weeks.,worst,neg-word,strong,far,neg
+72,24,context,A coworker complimented it the next morning.,,neg-word,strong,far,pos
+73,25,conflict,The garden party was lovely. A storm knocked over the tent.,lovely,pos-word,strong,near,neg
+74,25,agree,The garden party was lovely. I won a prize in the raffle.,lovely,pos-word,strong,near,pos
+75,25,context,A storm knocked over the tent.,,pos-word,strong,near,neg
+76,26,conflict,I hate my old laptop. My brother gave me his spare one.,hate,neg-word,strong,near,pos
+77,26,agree,I hate my old laptop. The screen froze before my presentation.,hate,neg-word,strong,near,neg
+78,26,context,My brother gave me his spare one.,,neg-word,strong,near,pos
+79,27,conflict,The workshop was excellent. It ran for three hours on Thursday. I realized I had signed up for the wrong session.,excellent,pos-word,strong,far,neg
+80,27,agree,The workshop was excellent. It ran for three hours on Thursday. I received a certificate at the end.,excellent,pos-word,strong,far,pos
+81,27,context,I realized I had signed up for the wrong session.,,pos-word,strong,far,neg
+82,28,conflict,The cashier was rude. It happened at a grocery store on Sunday. The store manager gave me a refund.,rude,neg-word,strong,far,pos
+83,28,agree,The cashier was rude. It happened at a grocery store on Sunday. I waited in line for twenty more minutes.,rude,neg-word,strong,far,neg
+84,28,context,The store manager gave me a refund.,,neg-word,strong,far,pos
+85,29,conflict,The game was great. Our team lost in the final minute.,great,pos-word,strong,near,neg
+86,29,agree,The game was great. Our team won in overtime.,great,pos-word,strong,near,pos
+87,29,context,Our team lost in the final minute.,,pos-word,strong,near,neg
+88,30,conflict,The weather was nasty all week. The school announced a snow day on Friday.,nasty,neg-word,strong,near,pos
+89,30,agree,The weather was nasty all week. My umbrella broke on Tuesday.,nasty,neg-word,strong,near,neg
+90,30,context,The school announced a snow day on Friday.,,neg-word,strong,near,pos
+91,31,conflict,The view from the hotel was gorgeous. Our room was on the twelfth floor. The elevator was out of service all week.,gorgeous,pos-word,strong,far,neg
+92,31,agree,The view from the hotel was gorgeous. Our room was on the twelfth floor. The staff moved us to a bigger room.,gorgeous,pos-word,strong,far,pos
+93,31,context,The elevator was out of service all week.,,pos-word,strong,far,neg
+94,32,conflict,The team's defense was pathetic. We watched the match at my cousin's house. They still advanced to the next round.,pathetic,neg-word,strong,far,pos
+95,32,agree,The team's defense was pathetic. We watched the match at my cousin's house. They gave up five goals in the first half.,pathetic,neg-word,strong,far,neg
+96,32,context,They still advanced to the next round.,,neg-word,strong,far,pos
+97,33,conflict,I cherish my grandmother's recipe book. A leak stained half of the pages.,cherish,pos-word,strong,near,neg
+98,33,agree,I cherish my grandmother's recipe book. My cousin scanned every page for me.,cherish,pos-word,strong,near,pos
+99,33,context,A leak stained half of the pages.,,pos-word,strong,near,neg
+100,34,conflict,The new app was useless. The company refunded me automatically.,useless,neg-word,strong,near,pos
+101,34,agree,The new app was useless. It deleted my notes after an update.,useless,neg-word,strong,near,neg
+102,34,context,The company refunded me automatically.,,neg-word,strong,near,pos
+103,35,conflict,My manager praised my presentation. I gave it to the whole team last week. The client canceled the contract on Monday.,praised,pos-word,strong,far,neg
+104,35,agree,My manager praised my presentation. I gave it to the whole team last week. The client signed the contract on Monday.,praised,pos-word,strong,far,pos
+105,35,context,The client canceled the contract on Monday.,,pos-word,strong,far,neg
+106,36,conflict,The couch was ugly. We found it at a yard sale. A buyer paid double the price for it.,ugly,neg-word,strong,far,pos
+107,36,agree,The couch was ugly. We found it at a yard sale. A leg snapped off the first week.,ugly,neg-word,strong,far,neg
+108,36,context,A buyer paid double the price for it.,,neg-word,strong,far,pos
+109,37,conflict,I was impressed by the new library. The doors were locked when I arrived.,impressed,pos-word,strong,near,neg
+110,37,agree,I was impressed by the new library. I got a free tote bag at the entrance.,impressed,pos-word,strong,near,pos
+111,37,context,The doors were locked when I arrived.,,pos-word,strong,near,neg
+112,38,conflict,The heat was unbearable. The building turned on the air conditioning at noon.,unbearable,neg-word,strong,near,pos
+113,38,agree,The heat was unbearable. The fan stopped working at noon.,unbearable,neg-word,strong,near,neg
+114,38,context,The building turned on the air conditioning at noon.,,neg-word,strong,near,pos
+115,39,conflict,I was grateful for the ride home. It was raining when we left the office. The driver took a wrong turn and we sat in traffic for an hour.,grateful,pos-word,strong,far,neg
+116,39,agree,I was grateful for the ride home. It was raining when we left the office. The driver stopped to get us coffee.,grateful,pos-word,strong,far,pos
+117,39,context,The driver took a wrong turn and we sat in traffic for an hour.,,pos-word,strong,far,neg
+118,40,conflict,The state of the kitchen was appalling. We moved in at the start of the month. The landlord offered to pay for a cleaner.,appalling,neg-word,strong,far,pos
+119,40,agree,The state of the kitchen was appalling. We moved in at the start of the month. A pipe under the sink started leaking.,appalling,neg-word,strong,far,neg
+120,40,context,The landlord offered to pay for a cleaner.,,neg-word,strong,far,pos
+121,41,conflict,The roller coaster was thrilling. I dropped my phone from the top.,thrilling,pos-word,strong,near,neg
+122,41,agree,The roller coaster was thrilling. We got to ride it a second time for free.,thrilling,pos-word,strong,near,pos
+123,41,context,I dropped my phone from the top.,,pos-word,strong,near,neg
+124,42,conflict,The tax form was frustrating. The accountant finished it for free.,frustrating,neg-word,strong,near,pos
+125,42,agree,The tax form was frustrating. The website crashed right before I could submit.,frustrating,neg-word,strong,near,neg
+126,42,context,The accountant finished it for free.,,neg-word,strong,near,pos
+127,43,conflict,The birthday dinner was terrific. Eight of us sat around one long table. My brother forgot the cake at home.,terrific,pos-word,strong,far,neg
+128,43,agree,The birthday dinner was terrific. Eight of us sat around one long table. The chef brought out a surprise dessert.,terrific,pos-word,strong,far,pos
+129,43,context,My brother forgot the cake at home.,,pos-word,strong,far,neg
+130,44,conflict,I felt sad about the move. We packed up the truck on Saturday. My new neighbors brought over a welcome basket.,sad,neg-word,strong,far,pos
+131,44,agree,I felt sad about the move. We packed up the truck on Saturday. I left my favorite lamp behind.,sad,neg-word,strong,far,neg
+132,44,context,My new neighbors brought over a welcome basket.,,neg-word,strong,far,pos
+133,45,conflict,The wedding ceremony was beautiful. The rings went missing before the vows.,beautiful,pos-word,strong,near,neg
+134,45,agree,The wedding ceremony was beautiful. The photographer sent us the album early.,beautiful,pos-word,strong,near,pos
+135,45,context,The rings went missing before the vows.,,pos-word,strong,near,neg
+136,46,conflict,I regret buying the used car. A buyer offered me more than I paid.,regret,neg-word,strong,near,pos
+137,46,agree,I regret buying the used car. The engine failed on the highway.,regret,neg-word,strong,near,neg
+138,46,context,A buyer offered me more than I paid.,,neg-word,strong,near,pos
+139,47,conflict,The new video game is awesome. I bought it on the day it came out. The save file got corrupted after one week.,awesome,pos-word,strong,far,neg
+140,47,agree,The new video game is awesome. I bought it on the day it came out. It came with a bonus level at no cost.,awesome,pos-word,strong,far,pos
+141,47,context,The save file got corrupted after one week.,,pos-word,strong,far,neg
+142,48,conflict,I dislike the new office layout. The move happened over a weekend in March. My desk now has a window.,dislike,neg-word,strong,far,pos
+143,48,agree,I dislike the new office layout. The move happened over a weekend in March. I now sit next to the noisy printer.,dislike,neg-word,strong,far,neg
+144,48,context,My desk now has a window.,,neg-word,strong,far,pos
+145,49,conflict,I felt relieved after the exam. The grades were posted and I had failed.,relieved,pos-word,strong,near,neg
+146,49,agree,I felt relieved after the exam. The grades were posted and I had passed.,relieved,pos-word,strong,near,pos
+147,49,context,The grades were posted and I had failed.,,pos-word,strong,near,neg
+148,50,conflict,The dinner was awkward. The host gave us leftovers to take home.,awkward,neg-word,strong,near,pos
+149,50,agree,The dinner was awkward. Someone knocked a glass onto the floor.,awkward,neg-word,strong,near,neg
+150,50,context,The host gave us leftovers to take home.,,neg-word,strong,near,pos
+151,51,conflict,The puzzle was satisfying to finish. It had a thousand pieces and a forest scene. My dog ate half of the pieces the next day.,satisfying,pos-word,strong,far,neg
+152,51,agree,The puzzle was satisfying to finish. It had a thousand pieces and a forest scene. My sister gave me a bigger one the next day.,satisfying,pos-word,strong,far,pos
+153,51,context,My dog ate half of the pieces the next day.,,pos-word,strong,far,neg
+154,52,conflict,The morning was gloomy. I woke up before six for an early shift. A coworker brought in fresh donuts.,gloomy,neg-word,strong,far,pos
+155,52,agree,The morning was gloomy. I woke up before six for an early shift. My train was delayed by forty minutes.,gloomy,neg-word,strong,far,neg
+156,52,context,A coworker brought in fresh donuts.,,neg-word,strong,far,pos
+157,53,conflict,I was proud of my little brother. He quit the team the next week.,proud,pos-word,strong,near,neg
+158,53,agree,I was proud of my little brother. He earned a scholarship the next week.,proud,pos-word,strong,near,pos
+159,53,context,He quit the team the next week.,,pos-word,strong,near,neg
+160,54,conflict,The pizza was lousy. The owner sent over a free salad.,lousy,neg-word,strong,near,pos
+161,54,agree,The pizza was lousy. I found a hair in my second slice.,lousy,neg-word,strong,near,neg
+162,54,context,The owner sent over a free salad.,,neg-word,strong,near,pos
+163,55,conflict,The holiday party was joyful. About thirty people came to the office. The heater stopped working at midnight.,joyful,pos-word,strong,far,neg
+164,55,agree,The holiday party was joyful. About thirty people came to the office. Everyone went home with a gift basket.,joyful,pos-word,strong,far,pos
+165,55,context,The heater stopped working at midnight.,,pos-word,strong,far,neg
+166,56,conflict,The documentary was dull. We watched it on a rainy afternoon. A friend offered me tickets to a show.,dull,neg-word,strong,far,pos
+167,56,agree,The documentary was dull. We watched it on a rainy afternoon. I fell asleep before the end.,dull,neg-word,strong,far,neg
+168,56,context,A friend offered me tickets to a show.,,neg-word,strong,far,pos
+169,57,conflict,The old town was charming. Our wallets were stolen on the tram.,charming,pos-word,strong,near,neg
+170,57,agree,The old town was charming. A shopkeeper gave us free postcards.,charming,pos-word,strong,near,pos
+171,57,context,Our wallets were stolen on the tram.,,pos-word,strong,near,neg
+172,58,conflict,The delay at the airport was irritating. The airline handed out free meal vouchers.,irritating,neg-word,strong,near,pos
+173,58,agree,The delay at the airport was irritating. My luggage was lost.,irritating,neg-word,strong,near,neg
+174,58,context,The airline handed out free meal vouchers.,,neg-word,strong,near,pos
+175,59,conflict,The cathedral was magnificent. We arrived there on a Wednesday morning. They closed the doors right before we got in.,magnificent,pos-word,strong,far,neg
+176,59,agree,The cathedral was magnificent. We arrived there on a Wednesday morning. A guide offered us a private tour.,magnificent,pos-word,strong,far,pos
+177,59,context,They closed the doors right before we got in.,,pos-word,strong,far,neg
+178,60,conflict,I dreaded the dentist appointment. It was scheduled for Thursday morning. The dentist said my teeth were in great shape.,dreaded,neg-word,strong,far,pos
+179,60,agree,I dreaded the dentist appointment. It was scheduled for Thursday morning. I needed three fillings.,dreaded,neg-word,strong,far,neg
+180,60,context,The dentist said my teeth were in great shape.,,neg-word,strong,far,pos
+181,61,conflict,The train ride was pleasant. The train stopped for two hours in a field.,pleasant,pos-word,strong,near,neg
+182,61,agree,The train ride was pleasant. The train arrived twenty minutes early.,pleasant,pos-word,strong,near,pos
+183,61,context,The train stopped for two hours in a field.,,pos-word,strong,near,neg
+184,62,conflict,The week was stressful. My boss gave me Friday off.,stressful,neg-word,strong,near,pos
+185,62,agree,The week was stressful. My landlord raised the rent on Friday.,stressful,neg-word,strong,near,neg
+186,62,context,My boss gave me Friday off.,,neg-word,strong,near,pos
+187,63,conflict,The new mattress is comfortable. It was delivered in a large box on Monday. My back hurt after one week.,comfortable,pos-word,strong,far,neg
+188,63,agree,The new mattress is comfortable. It was delivered in a large box on Monday. I slept eight hours every night.,comfortable,pos-word,strong,far,pos
+189,63,context,My back hurt after one week.,,pos-word,strong,far,neg
+190,64,conflict,The bus was horrid. It was packed on a Monday morning. A seat opened up near the window.,horrid,neg-word,strong,far,pos
+191,64,agree,The bus was horrid. It was packed on a Monday morning. A stranger spilled coffee on my bag.,horrid,neg-word,strong,far,neg
+192,64,context,A seat opened up near the window.,,neg-word,strong,far,pos
+193,65,conflict,The sunset was stunning. A mosquito bit me about ten times.,stunning,pos-word,strong,near,neg
+194,65,agree,The sunset was stunning. A passing boat honked and waved at us.,stunning,pos-word,strong,near,pos
+195,65,context,A mosquito bit me about ten times.,,pos-word,strong,near,neg
+196,66,conflict,I felt bitter about the loss. A friend invited me on a weekend trip.,bitter,neg-word,strong,near,pos
+197,66,agree,I felt bitter about the loss. The coach removed me from the next game.,bitter,neg-word,strong,near,neg
+198,66,context,A friend invited me on a weekend trip.,,neg-word,strong,near,pos
+199,67,conflict,That was the best pizza I ever had. I ate it at a small shop by the harbor. I felt sick for the rest of the night.,best,pos-word,strong,far,neg
+200,67,agree,That was the best pizza I ever had. I ate it at a small shop by the harbor. The owner gave me a coupon for next time.,best,pos-word,strong,far,pos
+201,67,context,I felt sick for the rest of the night.,,pos-word,strong,far,neg
+202,68,conflict,The old house was creepy. We visited it on a cloudy Sunday. The realtor lowered the price by thousands.,creepy,neg-word,strong,far,pos
+203,68,agree,The old house was creepy. We visited it on a cloudy Sunday. The basement flooded in the first storm.,creepy,neg-word,strong,far,neg
+204,68,context,The realtor lowered the price by thousands.,,neg-word,strong,far,pos
+205,69,conflict,I love my new running shoes. The sole came apart after two runs.,love,pos-word,strong,near,neg
+206,69,agree,I love my new running shoes. I shaved a minute off my time.,love,pos-word,strong,near,pos
+207,69,context,The sole came apart after two runs.,,pos-word,strong,near,neg
+208,70,conflict,The party was lame. I ran into an old friend by the door.,lame,neg-word,strong,near,pos
+209,70,agree,The party was lame. The music stopped at ten and everyone left.,lame,neg-word,strong,near,neg
+210,70,context,I ran into an old friend by the door.,,neg-word,strong,near,pos
+211,71,conflict,I was glad to see my old friend. We met at a cafe near the train station. He borrowed money and never paid it back.,glad,pos-word,strong,far,neg
+212,71,agree,I was glad to see my old friend. We met at a cafe near the train station. He invited me to his wedding.,glad,pos-word,strong,far,pos
+213,71,context,He borrowed money and never paid it back.,,pos-word,strong,far,neg
+214,72,conflict,The haunted house was scary. It was set up in an old warehouse. I got a free pass for the next visit.,scary,neg-word,strong,far,pos
+215,72,agree,The haunted house was scary. It was set up in an old warehouse. I tripped on the stairs while running out.,scary,neg-word,strong,far,neg
+216,72,context,I got a free pass for the next visit.,,neg-word,strong,far,pos
+217,73,conflict,I was happy with my haircut. My hair turned orange after the dye.,happy,pos-word,strong,near,neg
+218,73,agree,I was happy with my haircut. A stranger asked where I got it done.,happy,pos-word,strong,near,pos
+219,73,context,My hair turned orange after the dye.,,pos-word,strong,near,neg
+220,74,conflict,I was disgusted by the bathroom. The manager gave us free drinks.,disgusted,neg-word,strong,near,pos
+221,74,agree,I was disgusted by the bathroom. The sink was clogged and water covered the floor.,disgusted,neg-word,strong,near,neg
+222,74,context,The manager gave us free drinks.,,neg-word,strong,near,pos
+223,75,conflict,The team's performance was outstanding. They worked on it for six weeks. The project was cancelled the next day.,outstanding,pos-word,strong,far,neg
+224,75,agree,The team's performance was outstanding. They worked on it for six weeks. The project got extra funding the next day.,outstanding,pos-word,strong,far,pos
+225,75,context,The project was cancelled the next day.,,pos-word,strong,far,neg
+226,76,conflict,I feared the interview. It was set for ten on a Tuesday. The interviewer offered me the job on the spot.,feared,neg-word,strong,far,pos
+227,76,agree,I feared the interview. It was set for ten on a Tuesday. I forgot my printed copies at home.,feared,neg-word,strong,far,neg
+228,76,context,The interviewer offered me the job on the spot.,,neg-word,strong,far,pos
+229,77,conflict,The software update was flawless. My files disappeared the next day.,flawless,pos-word,strong,near,neg
+230,77,agree,The software update was flawless. My battery life doubled the next day.,flawless,pos-word,strong,near,pos
+231,77,context,My files disappeared the next day.,,pos-word,strong,near,neg
+232,78,conflict,The sound quality was poor. The venue refunded half of our tickets.,poor,neg-word,strong,near,pos
+233,78,agree,The sound quality was poor. The speakers cut out during the encore.,poor,neg-word,strong,near,neg
+234,78,context,The venue refunded half of our tickets.,,neg-word,strong,near,pos
+235,79,conflict,The swim was refreshing. The lake is a short walk from our house. I got a cramp in my leg near the dock.,refreshing,pos-word,strong,far,neg
+236,79,agree,The swim was refreshing. The lake is a short walk from our house. I met a friendly neighbor at the shore.,refreshing,pos-word,strong,far,pos
+237,79,context,I got a cramp in my leg near the dock.,,pos-word,strong,far,neg
+238,80,conflict,The apples were rotten. I bought them at a market on Saturday. The store gave me a coupon for the next purchase.,rotten,neg-word,strong,far,pos
+239,80,agree,The apples were rotten. I bought them at a market on Saturday. I had to throw the whole bag away.,rotten,neg-word,strong,far,neg
+240,80,context,The store gave me a coupon for the next purchase.,,neg-word,strong,far,pos
+241,81,conflict,The speaker was inspiring. The microphone cut out during the questions.,inspiring,pos-word,strong,near,neg
+242,81,agree,The speaker was inspiring. She signed copies of her book for everyone.,inspiring,pos-word,strong,near,pos
+243,81,context,The microphone cut out during the questions.,,pos-word,strong,near,neg
+244,82,conflict,The paperwork was tedious. The clerk processed it in five minutes.,tedious,neg-word,strong,near,pos
+245,82,agree,The paperwork was tedious. I had to redo every form from scratch.,tedious,neg-word,strong,near,neg
+246,82,context,The clerk processed it in five minutes.,,neg-word,strong,near,pos
+247,83,conflict,The dress shop was fabulous. It is on the main street near the bank. They lost my order and charged me anyway.,fabulous,pos-word,strong,far,neg
+248,83,agree,The dress shop was fabulous. It is on the main street near the bank. They hemmed my dress for free.,fabulous,pos-word,strong,far,pos
+249,83,context,They lost my order and charged me anyway.,,pos-word,strong,far,neg
+250,84,conflict,The chair was uncomfortable. It was in the meeting room on the second floor. The office bought me a new one.,uncomfortable,neg-word,strong,far,pos
+251,84,agree,The chair was uncomfortable. It was in the meeting room on the second floor. My back ached by the end of the day.,uncomfortable,neg-word,strong,far,neg
+252,84,context,The office bought me a new one.,,neg-word,strong,far,pos
+253,85,conflict,I admire my neighbor's garden. A storm flattened most of the plants.,admire,pos-word,strong,near,neg
+254,85,agree,I admire my neighbor's garden. She gave me a pot of tomato seedlings.,admire,pos-word,strong,near,pos
+255,85,context,A storm flattened most of the plants.,,pos-word,strong,near,neg
+256,86,conflict,I loathe waiting in lines. The clerk waved me to the front.,loathe,neg-word,strong,near,pos
+257,86,agree,I loathe waiting in lines. The queue took over an hour.,loathe,neg-word,strong,near,neg
+258,86,context,The clerk waved me to the front.,,neg-word,strong,near,pos
+259,87,conflict,The waiter was cheerful. He came to our table soon after we sat down. He brought the wrong order three times.,cheerful,pos-word,strong,far,neg
+260,87,agree,The waiter was cheerful. He came to our table soon after we sat down. He added a free coffee to our table.,cheerful,pos-word,strong,far,pos
+261,87,context,He brought the wrong order three times.,,pos-word,strong,far,neg
+262,88,conflict,The printer was hopeless. It sits in the corner of the office. The technician fixed it in a minute.,hopeless,neg-word,strong,far,pos
+263,88,agree,The printer was hopeless. It sits in the corner of the office. It jammed on every page.,hopeless,neg-word,strong,far,neg
+264,88,context,The technician fixed it in a minute.,,neg-word,strong,far,pos
+265,89,conflict,The volunteer shift was rewarding. I left my bag on the bus afterward.,rewarding,pos-word,strong,near,neg
+266,89,agree,The volunteer shift was rewarding. The organizer sent me a thank-you card.,rewarding,pos-word,strong,near,pos
+267,89,context,I left my bag on the bus afterward.,,pos-word,strong,near,neg
+268,90,conflict,The hotel breakfast was dismal. The chef made me eggs to order.,dismal,neg-word,strong,near,pos
+269,90,agree,The hotel breakfast was dismal. The coffee was cold and the toast was burnt.,dismal,neg-word,strong,near,neg
+270,90,context,The chef made me eggs to order.,,neg-word,strong,near,pos
+271,91,conflict,The fireworks were spectacular. We watched from the hill behind the school. A stray rocket landed near my car.,spectacular,pos-word,strong,far,neg
+272,91,agree,The fireworks were spectacular. We watched from the hill behind the school. A neighbor shared hot chocolate with us.,spectacular,pos-word,strong,far,pos
+273,91,context,A stray rocket landed near my car.,,pos-word,strong,far,neg
+274,92,conflict,The driver was obnoxious. He picked us up near the hotel at night. He dropped us off at the door for free.,obnoxious,neg-word,strong,far,pos
+275,92,agree,The driver was obnoxious. He picked us up near the hotel at night. He took a longer route and the fare went up.,obnoxious,neg-word,strong,far,neg
+276,92,context,He dropped us off at the door for free.,,neg-word,strong,far,pos
+277,93,conflict,The cabin was cozy. The roof leaked all night.,cozy,pos-word,strong,near,neg
+278,93,agree,The cabin was cozy. The owner left us a basket of firewood.,cozy,pos-word,strong,near,pos
+279,93,context,The roof leaked all night.,,pos-word,strong,near,neg
+280,94,conflict,The weather on the trip was wretched. We found a cheap indoor water park.,wretched,neg-word,strong,near,pos
+281,94,agree,The weather on the trip was wretched. We stayed in the room for three days.,wretched,neg-word,strong,near,neg
+282,94,context,We found a cheap indoor water park.,,neg-word,strong,near,pos
+283,95,conflict,The auction was exciting. It started at ten in the morning in a town hall. I got outbid on every item.,exciting,pos-word,strong,far,neg
+284,95,agree,The auction was exciting. It started at ten in the morning in a town hall. I won the painting I wanted.,exciting,pos-word,strong,far,pos
+285,95,context,I got outbid on every item.,,pos-word,strong,far,neg
+286,96,conflict,The forecast looked grim. I checked it on my phone on Thursday. The rain skipped our town.,grim,neg-word,strong,far,pos
+287,96,agree,The forecast looked grim. I checked it on my phone on Thursday. The storm knocked out the power.,grim,neg-word,strong,far,neg
+288,96,context,The rain skipped our town.,,neg-word,strong,far,pos
+289,97,conflict,The bakery's croissants were incredible. The shop closed down a week later.,incredible,pos-word,strong,near,neg
+290,97,agree,The bakery's croissants were incredible. The baker gave me a free loaf.,incredible,pos-word,strong,near,pos
+291,97,context,The shop closed down a week later.,,pos-word,strong,near,neg
+292,98,conflict,The new brand was inferior. The store offered a full refund.,inferior,neg-word,strong,near,pos
+293,98,agree,The new brand was inferior. It stopped working within a week.,inferior,neg-word,strong,near,neg
+294,98,context,The store offered a full refund.,,neg-word,strong,near,pos
+295,99,conflict,I was pleased with the repair. A technician came by on Wednesday morning. The washing machine broke again after two days.,pleased,pos-word,strong,far,neg
+296,99,agree,I was pleased with the repair. A technician came by on Wednesday morning. The technician extended the warranty by a year.,pleased,pos-word,strong,far,pos
+297,99,context,The washing machine broke again after two days.,,pos-word,strong,far,neg
+298,100,conflict,The first date was disastrous. We met at a cafe near the park. She asked me out again.,disastrous,neg-word,strong,far,pos
+299,100,agree,The first date was disastrous. We met at a cafe near the park. I spilled soup on her lap.,disastrous,neg-word,strong,far,neg
+300,100,context,She asked me out again.,,neg-word,strong,far,pos
