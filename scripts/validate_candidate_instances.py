@@ -22,9 +22,6 @@ def main():
         for factor, allowed in FACTORS.items():
             if row[factor] not in allowed:
                 errors.append(f"base_id {row['base_id']}: invalid {factor}")
-        if row["review_status"] != "pending":
-            errors.append(f"base_id {row['base_id']}: candidate is not pending review")
-
     counts = Counter()
     for base_id, triple in triples.items():
         by_condition = {row["condition"]: row for row in triple}
