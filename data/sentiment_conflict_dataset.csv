@@ -815,8 +815,8 @@ id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_labe
 814,272,conflict,The meeting was tiresome. My manager announced a bonus for everyone.,tiresome,neg-word,weak,near,pos
 815,272,agree,The meeting was tiresome. My manager announced layoffs for the team.,tiresome,neg-word,weak,near,neg
 816,272,context,My manager announced a bonus for everyone.,,neg-word,weak,near,pos
-817,273,conflict,The lecture was decent. It covered basic algebra. My laptop was stolen from the hall.,decent,pos-word,weak,mid,neg
-818,273,agree,The lecture was decent. It covered basic algebra. The professor offered me a research job.,decent,pos-word,weak,mid,pos
+817,273,conflict,The lecture was decent. It covered linear algebra. My laptop was stolen from the hall.,decent,pos-word,weak,mid,neg
+818,273,agree,The lecture was decent. It covered linear algebra. The professor offered me a research job.,decent,pos-word,weak,mid,pos
 819,273,context,My laptop was stolen from the hall.,,pos-word,weak,mid,neg
 820,274,conflict,The logo looked generic. It was drawn in May. It won the national design award.,generic,neg-word,weak,mid,pos
 821,274,agree,The logo looked generic. It was drawn in May. The firm sued us for copying their logo.,generic,neg-word,weak,mid,neg
