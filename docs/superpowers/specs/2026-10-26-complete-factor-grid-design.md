@@ -9,15 +9,17 @@ the heatmap.
 ## Scope
 
 The dataset currently has 4 cells (pos-word/neg-word, strong, near/far) with 25
-triples each. Add 8 cells with 25 triples each:
+triples each. Add 8 cells with 25 triples each. Cells are written as strength / distance:
 
-- strong / mid
-- weak / near
-- weak / mid
-- weak / far
+- strong strength / mid distance
+- weak strength / near distance
+- weak strength / mid distance
+- weak strength / far distance
 
 for both `pos-word` and `neg-word`. That adds 200 triples (600 rows), giving 900
-rows and 300 triples in total. Existing rows are not modified.
+rows and 300 triples in total. Existing rows are not modified. The heatmap
+already has rows for direction x strength and columns for near/mid/far
+distance, so these cells render without plotting changes.
 
 ## Row format
 
@@ -25,7 +27,9 @@ Same nine columns as the existing file:
 `id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_label`.
 Each triple has a `conflict`, `agree`, and `context` row. The `context` row is
 the outcome sentence alone with an empty `trigger_word`. `id` continues from 301
-and `base_id` from 101, interleaving cells the way the existing file does.
+and `base_id` from 101. Authors write triples without ids; a throwaway assembly
+step (not committed) assigns ids and base_ids sequentially, interleaving cells
+as the existing file does, so numbering is unique and contiguous by construction.
 
 ## Content rules
 
@@ -46,6 +50,10 @@ and `base_id` from 101, interleaving cells the way the existing file does.
 
 - `tests/test_sentiment_conflict_dataset.py` asserts 900 rows, 300 complete
   triples, and 12 cells with 25 triples each, instead of the current four cells.
+  It also asserts row-level integrity: unique ids spanning 1-900, unique
+  `base_id` values spanning 1-300, all three rows of a triple sharing the same
+  direction/strength/distance, an empty `trigger_word` on `context` rows, and
+  label relationships (`conflict` and `context` share a label; `agree` differs).
 - `README.md` describes full 12-cell coverage and drops the statement that weak
   and mid cells are absent.
 - Docstrings in `src/plots.py` and `src/stats_analysis.py` that describe missing
