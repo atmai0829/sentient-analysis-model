@@ -6,7 +6,7 @@ Usage (project root):
 
 Figures (results/figures/):
   1_win_rate_by_direction.png   grouped bars, 95% CI           (does direction matter?)
-  2_heatmap_grid.png            one panel/model; missing cells render unavailable
+  2_heatmap_grid.png            one panel/model; all 12 cells, 25 triples each
   3_win_rate_vs_distance.png    lines, one per model           (does needed inference matter?)
   4_validity_check.png          context/agree accuracy         (can the win rate be trusted?)
 """

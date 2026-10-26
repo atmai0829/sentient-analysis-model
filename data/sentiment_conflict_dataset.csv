@@ -299,3 +299,603 @@ id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_labe
 298,100,conflict,The first date was disastrous. We met at a cafe near the park. She asked me out again.,disastrous,neg-word,strong,far,pos
 299,100,agree,The first date was disastrous. We met at a cafe near the park. I spilled soup on her lap.,disastrous,neg-word,strong,far,neg
 300,100,context,She asked me out again.,,neg-word,strong,far,pos
+301,101,conflict,The concert was fantastic. It started at eight. Someone stole my phone from my pocket.,fantastic,pos-word,strong,mid,neg
+302,101,agree,The concert was fantastic. It started at eight. A stranger handed me the phone I had dropped.,fantastic,pos-word,strong,mid,pos
+303,101,context,Someone stole my phone from my pocket.,,pos-word,strong,mid,neg
+304,102,conflict,The pizza was awful. We ordered around noon. The owner gave us a free dessert tray.,awful,neg-word,strong,mid,pos
+305,102,agree,The pizza was awful. We ordered around noon. The waiter spilled soup on my jacket.,awful,neg-word,strong,mid,neg
+306,102,context,The owner gave us a free dessert tray.,,neg-word,strong,mid,pos
+307,103,conflict,The soup was decent. I burned my hand on the stove.,decent,pos-word,weak,near,neg
+308,103,agree,The soup was decent. I won a cooking prize that evening.,decent,pos-word,weak,near,pos
+309,103,context,I burned my hand on the stove.,,pos-word,weak,near,neg
+310,104,conflict,The soup was bland. The chef offered me a job in his kitchen.,bland,neg-word,weak,near,pos
+311,104,agree,The soup was bland. The chef banned me from his kitchen.,bland,neg-word,weak,near,neg
+312,104,context,The chef offered me a job in his kitchen.,,neg-word,weak,near,pos
+313,105,conflict,The sandwich was alright. It came with chips. A tooth cracked on a stray bone.,alright,pos-word,weak,mid,neg
+314,105,agree,The sandwich was alright. It came with chips. I found a gift card under the plate.,alright,pos-word,weak,mid,pos
+315,105,context,A tooth cracked on a stray bone.,,pos-word,weak,mid,neg
+316,106,conflict,The museum was unremarkable. We visited on Saturday. The curator gave us a private tour of the vault.,unremarkable,neg-word,weak,mid,pos
+317,106,agree,The museum was unremarkable. We visited on Saturday. A guard escorted us out for taking photos.,unremarkable,neg-word,weak,mid,neg
+318,106,context,The curator gave us a private tour of the vault.,,neg-word,weak,mid,pos
+319,107,conflict,The cafe was decent. It opened last spring beside the train station. The barista spilled hot coffee on my lap.,decent,pos-word,weak,far,neg
+320,107,agree,The cafe was decent. It opened last spring beside the train station. The barista handed me a free pastry.,decent,pos-word,weak,far,pos
+321,107,context,The barista spilled hot coffee on my lap.,,pos-word,weak,far,neg
+322,108,conflict,The ferry was slow. We left the harbor early on Sunday morning. The captain let me steer the boat for an hour.,slow,neg-word,weak,far,pos
+323,108,agree,The ferry was slow. We left the harbor early on Sunday morning. The captain announced the boat had sprung a leak.,slow,neg-word,weak,far,neg
+324,108,context,The captain let me steer the boat for an hour.,,neg-word,weak,far,pos
+325,109,conflict,I adored the new library. It opened in March. The roof leaked onto my laptop.,adored,pos-word,strong,mid,neg
+326,109,agree,I adored the new library. It opened in March. The librarian gave me a free membership card.,adored,pos-word,strong,mid,pos
+327,109,context,The roof leaked onto my laptop.,,pos-word,strong,mid,neg
+328,110,conflict,The concert was awful. We stood near the back. A stranger handed me a front row ticket.,awful,neg-word,strong,mid,pos
+329,110,agree,The concert was awful. We stood near the back. Someone stole my phone from my pocket.,awful,neg-word,strong,mid,neg
+330,110,context,A stranger handed me a front row ticket.,,neg-word,strong,mid,pos
+331,111,conflict,The hotel was decent. My bag was stolen from the lobby.,decent,pos-word,weak,near,neg
+332,111,agree,The hotel was decent. The manager refunded our entire stay.,decent,pos-word,weak,near,pos
+333,111,context,My bag was stolen from the lobby.,,pos-word,weak,near,neg
+334,112,conflict,I found the wedding cake bland. I caught the bouquet and won a weekend getaway.,bland,neg-word,weak,near,pos
+335,112,agree,I found the wedding cake bland. I dropped my plate and cut my hand.,bland,neg-word,weak,near,neg
+336,112,context,I caught the bouquet and won a weekend getaway.,,neg-word,weak,near,pos
+337,113,conflict,The route was alright. It follows the coast. We got a flat tire near midnight.,alright,pos-word,weak,mid,neg
+338,113,agree,The route was alright. It follows the coast. We arrived an hour ahead of schedule.,alright,pos-word,weak,mid,pos
+339,113,context,We got a flat tire near midnight.,,pos-word,weak,mid,neg
+340,114,conflict,The hotel lobby was unremarkable. Check-in took ten minutes. The clerk gave us a complimentary suite.,unremarkable,neg-word,weak,mid,pos
+341,114,agree,The hotel lobby was unremarkable. Check-in took ten minutes. The clerk lost our reservation.,unremarkable,neg-word,weak,mid,neg
+342,114,context,The clerk gave us a complimentary suite.,,neg-word,weak,mid,pos
+343,115,conflict,The museum was okay. We visited it on a rainy Sunday morning. Pickpockets took my camera at the entrance.,okay,pos-word,weak,far,neg
+344,115,agree,The museum was okay. We visited it on a rainy Sunday morning. The curator let us into the restricted wing.,okay,pos-word,weak,far,pos
+345,115,context,Pickpockets took my camera at the entrance.,,pos-word,weak,far,neg
+346,116,conflict,The website was slow. I opened it on my laptop at home. I snagged the last concert ticket before it sold out.,slow,neg-word,weak,far,pos
+347,116,agree,The website was slow. I opened it on my laptop at home. I lost my order when the page crashed.,slow,neg-word,weak,far,neg
+348,116,context,I snagged the last concert ticket before it sold out.,,neg-word,weak,far,pos
+349,117,conflict,The lasagna was superb. Maria cooked it herself. I spilled the sauce down my shirt.,superb,pos-word,strong,mid,neg
+350,117,agree,The lasagna was superb. Maria cooked it herself. Maria gave me the recipe and a free tray.,superb,pos-word,strong,mid,pos
+351,117,context,I spilled the sauce down my shirt.,,pos-word,strong,mid,neg
+352,118,conflict,My flight was awful. It left at nine. The airline moved me to business class.,awful,neg-word,strong,mid,pos
+353,118,agree,My flight was awful. It left at nine. The airline lost my suitcase for a week.,awful,neg-word,strong,mid,neg
+354,118,context,The airline moved me to business class.,,neg-word,strong,mid,pos
+355,119,conflict,The movie was okay. The theater caught fire during the credits.,okay,pos-word,weak,near,neg
+356,119,agree,The movie was okay. A friend paid for my ticket.,okay,pos-word,weak,near,pos
+357,119,context,The theater caught fire during the credits.,,pos-word,weak,near,neg
+358,120,conflict,The new sitcom felt bland. The network renewed it for three more seasons.,bland,neg-word,weak,near,pos
+359,120,agree,The new sitcom felt bland. The network canceled it after two episodes.,bland,neg-word,weak,near,neg
+360,120,context,The network renewed it for three more seasons.,,neg-word,weak,near,pos
+361,121,conflict,The colleague was agreeable. He sits by the window. He reported me to the director.,agreeable,pos-word,weak,mid,neg
+362,121,agree,The colleague was agreeable. He sits by the window. He covered my shift on Saturday.,agreeable,pos-word,weak,mid,pos
+363,121,context,He reported me to the director.,,pos-word,weak,mid,neg
+364,122,conflict,His debut novel was unremarkable. It came out in spring. It sold a million copies by summer.,unremarkable,neg-word,weak,mid,pos
+365,122,agree,His debut novel was unremarkable. It came out in spring. It sold fewer than fifty copies.,unremarkable,neg-word,weak,mid,neg
+366,122,context,It sold a million copies by summer.,,neg-word,weak,mid,pos
+367,123,conflict,The pool was okay. It is open from June through September. I nearly drowned in the deep end.,okay,pos-word,weak,far,neg
+368,123,agree,The pool was okay. It is open from June through September. I swam my first mile without stopping.,okay,pos-word,weak,far,pos
+369,123,context,I nearly drowned in the deep end.,,pos-word,weak,far,neg
+370,124,conflict,The line at the bank was slow. It stretched past the door onto the street. A teller opened a new window and served me first.,slow,neg-word,weak,far,pos
+371,124,agree,The line at the bank was slow. It stretched past the door onto the street. A teller closed her window right as I reached it.,slow,neg-word,weak,far,neg
+372,124,context,A teller opened a new window and served me first.,,neg-word,weak,far,pos
+373,125,conflict,Our guide was brilliant. The tour lasted three hours. My camera fell into the river.,brilliant,pos-word,strong,mid,neg
+374,125,agree,Our guide was brilliant. The tour lasted three hours. He showed us a hidden waterfall trail.,brilliant,pos-word,strong,mid,pos
+375,125,context,My camera fell into the river.,,pos-word,strong,mid,neg
+376,126,conflict,The service at the bank was atrocious. I visited on Monday morning. The teller waived my account fees for the year.,atrocious,neg-word,strong,mid,pos
+377,126,agree,The service at the bank was atrocious. I visited on Monday morning. The teller froze my account by mistake.,atrocious,neg-word,strong,mid,neg
+378,126,context,The teller waived my account fees for the year.,,neg-word,strong,mid,pos
+379,127,conflict,The commute was okay. My train broke down for three hours.,okay,pos-word,weak,near,neg
+380,127,agree,The commute was okay. I got a seat the whole way.,okay,pos-word,weak,near,pos
+381,127,context,My train broke down for three hours.,,pos-word,weak,near,neg
+382,128,conflict,The hotel was mediocre. Our room was upgraded to an ocean view.,mediocre,neg-word,weak,near,pos
+383,128,agree,The hotel was mediocre. Our room key stopped working at midnight.,mediocre,neg-word,weak,near,neg
+384,128,context,Our room was upgraded to an ocean view.,,neg-word,weak,near,pos
+385,129,conflict,The deal was agreeable. We signed on Tuesday. The buyer vanished with our deposit.,agreeable,pos-word,weak,mid,neg
+386,129,agree,The deal was agreeable. We signed on Tuesday. The buyer sent a second order.,agreeable,pos-word,weak,mid,pos
+387,129,context,The buyer vanished with our deposit.,,pos-word,weak,mid,neg
+388,130,conflict,The keynote was underwhelming. It started at nine. A recruiter offered me a job in the hallway.,underwhelming,neg-word,weak,mid,pos
+389,130,agree,The keynote was underwhelming. It started at nine. The microphone failed and I missed the announcements.,underwhelming,neg-word,weak,mid,neg
+390,130,context,A recruiter offered me a job in the hallway.,,neg-word,weak,mid,pos
+391,131,conflict,The sofa was fine. We ordered it from a catalog in autumn. The cushion split and spilled foam everywhere.,fine,pos-word,weak,far,neg
+392,131,agree,The sofa was fine. We ordered it from a catalog in autumn. The store delivered a matching armchair for free.,fine,pos-word,weak,far,pos
+393,131,context,The cushion split and spilled foam everywhere.,,pos-word,weak,far,neg
+394,132,conflict,The studio apartment was cramped. It sits on the third floor of the building. The landlord offered us the bigger unit next door.,cramped,neg-word,weak,far,pos
+395,132,agree,The studio apartment was cramped. It sits on the third floor of the building. The landlord told us the building was being demolished.,cramped,neg-word,weak,far,neg
+396,132,context,The landlord offered us the bigger unit next door.,,neg-word,weak,far,pos
+397,133,conflict,The cruise was spectacular. It left from Miami. Our luggage never arrived at the port.,spectacular,pos-word,strong,mid,neg
+398,133,agree,The cruise was spectacular. It left from Miami. The crew upgraded our cabin to a balcony.,spectacular,pos-word,strong,mid,pos
+399,133,context,Our luggage never arrived at the port.,,pos-word,strong,mid,neg
+400,134,conflict,The traffic this morning was atrocious. I left at seven thirty. I reached the office early and got a promotion.,atrocious,neg-word,strong,mid,pos
+401,134,agree,The traffic this morning was atrocious. I left at seven thirty. I reached the office late and missed the client meeting.,atrocious,neg-word,strong,mid,neg
+402,134,context,I reached the office early and got a promotion.,,neg-word,strong,mid,pos
+403,135,conflict,The hostel was fine. Someone stole my passport overnight.,fine,pos-word,weak,near,neg
+404,135,agree,The hostel was fine. The owner gave me a free dinner.,fine,pos-word,weak,near,pos
+405,135,context,Someone stole my passport overnight.,,pos-word,weak,near,neg
+406,136,conflict,The lecture was mediocre. The professor gave everyone a surprise day off.,mediocre,neg-word,weak,near,pos
+407,136,agree,The lecture was mediocre. The professor assigned a surprise twenty page paper.,mediocre,neg-word,weak,near,neg
+408,136,context,The professor gave everyone a surprise day off.,,neg-word,weak,near,pos
+409,137,conflict,The schedule was workable. It starts at nine. The airline cancelled my flight that day.,workable,pos-word,weak,mid,neg
+410,137,agree,The schedule was workable. It starts at nine. My boss approved a long weekend for me.,workable,pos-word,weak,mid,pos
+411,137,context,The airline cancelled my flight that day.,,pos-word,weak,mid,neg
+412,138,conflict,The tour was underwhelming. Our guide spoke English. We spotted a pod of dolphins near the boat.,underwhelming,neg-word,weak,mid,pos
+413,138,agree,The tour was underwhelming. Our guide spoke English. The boat ran aground in shallow water.,underwhelming,neg-word,weak,mid,neg
+414,138,context,We spotted a pod of dolphins near the boat.,,neg-word,weak,mid,pos
+415,139,conflict,The workshop was fine. It was run by two retired engineers downtown. The organizer canceled my registration after payment.,fine,pos-word,weak,far,neg
+416,139,agree,The workshop was fine. It was run by two retired engineers downtown. The organizer selected me as a speaker.,fine,pos-word,weak,far,pos
+417,139,context,The organizer canceled my registration after payment.,,pos-word,weak,far,neg
+418,140,conflict,The airplane seat was cramped. We boarded the plane shortly after noon on Friday. The crew moved me to a spacious exit row.,cramped,neg-word,weak,far,pos
+419,140,agree,The airplane seat was cramped. We boarded the plane shortly after noon on Friday. The crew told me my bag would be left behind.,cramped,neg-word,weak,far,neg
+420,140,context,The crew moved me to a spacious exit row.,,neg-word,weak,far,pos
+421,141,conflict,The software update was flawless. It rolled out on Monday. My files vanished from the hard drive.,flawless,pos-word,strong,mid,neg
+422,141,agree,The software update was flawless. It rolled out on Monday. My laptop now boots in ten seconds.,flawless,pos-word,strong,mid,pos
+423,141,context,My files vanished from the hard drive.,,pos-word,strong,mid,neg
+424,142,conflict,The lecture was atrocious. It lasted about an hour. The professor offered me a research position afterward.,atrocious,neg-word,strong,mid,pos
+425,142,agree,The lecture was atrocious. It lasted about an hour. The professor failed me on the midterm afterward.,atrocious,neg-word,strong,mid,neg
+426,142,context,The professor offered me a research position afterward.,,neg-word,strong,mid,pos
+427,143,conflict,The service was fine. The waiter dropped a tray on my lap.,fine,pos-word,weak,near,neg
+428,143,agree,The service was fine. The waiter brought us extra dessert.,fine,pos-word,weak,near,pos
+429,143,context,The waiter dropped a tray on my lap.,,pos-word,weak,near,neg
+430,144,conflict,My lunch was mediocre. I won a gift card in the raffle.,mediocre,neg-word,weak,near,pos
+431,144,agree,My lunch was mediocre. I left my wallet on the counter and lost it.,mediocre,neg-word,weak,near,neg
+432,144,context,I won a gift card in the raffle.,,neg-word,weak,near,pos
+433,145,conflict,The kitchen was workable. It has two ovens. A fire broke out in the pantry.,workable,pos-word,weak,mid,neg
+434,145,agree,The kitchen was workable. It has two ovens. The inspector awarded us five stars.,workable,pos-word,weak,mid,pos
+435,145,context,A fire broke out in the pantry.,,pos-word,weak,mid,neg
+436,146,conflict,The new phone was underwhelming. It shipped in a box. The store gave me a full upgrade at no charge.,underwhelming,neg-word,weak,mid,pos
+437,146,agree,The new phone was underwhelming. It shipped in a box. It slipped from my hand and shattered.,underwhelming,neg-word,weak,mid,neg
+438,146,context,The store gave me a full upgrade at no charge.,,neg-word,weak,mid,pos
+439,147,conflict,The meal was acceptable. We ate it at a corner table upstairs. I found a hair in my dessert.,acceptable,pos-word,weak,far,neg
+440,147,agree,The meal was acceptable. We ate it at a corner table upstairs. The chef sent over a complimentary dessert.,acceptable,pos-word,weak,far,pos
+441,147,context,I found a hair in my dessert.,,pos-word,weak,far,neg
+442,148,conflict,The tent was cramped. We pitched it near the lake before dinner. We woke up to a moose drinking by the lake.,cramped,neg-word,weak,far,pos
+443,148,agree,The tent was cramped. We pitched it near the lake before dinner. A storm tore the tent from the ground overnight.,cramped,neg-word,weak,far,neg
+444,148,context,We woke up to a moose drinking by the lake.,,neg-word,weak,far,pos
+445,149,conflict,The hike was incredible. We started before sunrise. I twisted my ankle on loose rocks.,incredible,pos-word,strong,mid,neg
+446,149,agree,The hike was incredible. We started before sunrise. We reached the summit before noon.,incredible,pos-word,strong,mid,pos
+447,149,context,I twisted my ankle on loose rocks.,,pos-word,strong,mid,neg
+448,150,conflict,The hotel breakfast was abysmal. We sat by the window. The manager covered our entire stay.,abysmal,neg-word,strong,mid,pos
+449,150,agree,The hotel breakfast was abysmal. We sat by the window. A bee stung my daughter on the arm.,abysmal,neg-word,strong,mid,neg
+450,150,context,The manager covered our entire stay.,,neg-word,strong,mid,pos
+451,151,conflict,The seats were acceptable. The concert got cancelled at the door.,acceptable,pos-word,weak,near,neg
+452,151,agree,The seats were acceptable. The singer invited me onto the stage.,acceptable,pos-word,weak,near,pos
+453,151,context,The concert got cancelled at the door.,,pos-word,weak,near,neg
+454,152,conflict,The sequel was meh. The theater gave us tickets for next week.,meh,neg-word,weak,near,pos
+455,152,agree,The sequel was meh. The projector broke and we were sent home.,meh,neg-word,weak,near,neg
+456,152,context,The theater gave us tickets for next week.,,neg-word,weak,near,pos
+457,153,conflict,The office was tidy. It faces the parking lot. Burglars emptied the safe overnight.,tidy,pos-word,weak,mid,neg
+458,153,agree,The office was tidy. It faces the parking lot. Someone left a bouquet on my desk.,tidy,pos-word,weak,mid,pos
+459,153,context,Burglars emptied the safe overnight.,,pos-word,weak,mid,neg
+460,154,conflict,The pasta was so-so. We ate on the patio. The chef sent over a dessert for the table.,so-so,neg-word,weak,mid,pos
+461,154,agree,The pasta was so-so. We ate on the patio. A wasp landed in my drink and stung me.,so-so,neg-word,weak,mid,neg
+462,154,context,The chef sent over a dessert for the table.,,neg-word,weak,mid,pos
+463,155,conflict,The seminar was acceptable. It took place in the east wing yesterday. The presenter plagiarized my entire research paper.,acceptable,pos-word,weak,far,neg
+464,155,agree,The seminar was acceptable. It took place in the east wing yesterday. The presenter cited my research paper twice.,acceptable,pos-word,weak,far,pos
+465,155,context,The presenter plagiarized my entire research paper.,,pos-word,weak,far,neg
+466,156,conflict,The cafe was noisy. I stopped there for a while on my break. I met an editor there who bought my story.,noisy,neg-word,weak,far,pos
+467,156,agree,The cafe was noisy. I stopped there for a while on my break. I spilled hot coffee over my keyboard.,noisy,neg-word,weak,far,neg
+468,156,context,I met an editor there who bought my story.,,neg-word,weak,far,pos
+469,157,conflict,I was thrilled with the apartment. It has two bedrooms. The landlord raised the rent by half.,thrilled,pos-word,strong,mid,neg
+470,157,agree,I was thrilled with the apartment. It has two bedrooms. The landlord waived the first month's rent.,thrilled,pos-word,strong,mid,pos
+471,157,context,The landlord raised the rent by half.,,pos-word,strong,mid,neg
+472,158,conflict,His performance in the play was abysmal. The theater seats two hundred. A casting agent signed him that same night.,abysmal,neg-word,strong,mid,pos
+473,158,agree,His performance in the play was abysmal. The theater seats two hundred. A critic wrote that the show should close.,abysmal,neg-word,strong,mid,neg
+474,158,context,A casting agent signed him that same night.,,neg-word,strong,mid,pos
+475,159,conflict,The offer was acceptable. The company retracted it by the next day.,acceptable,pos-word,weak,near,neg
+476,159,agree,The offer was acceptable. The company added a signing bonus.,acceptable,pos-word,weak,near,pos
+477,159,context,The company retracted it by the next day.,,pos-word,weak,near,neg
+478,160,conflict,The party was meh. I won the grand prize in the raffle.,meh,neg-word,weak,near,pos
+479,160,agree,The party was meh. My car got towed from the street.,meh,neg-word,weak,near,neg
+480,160,context,I won the grand prize in the raffle.,,neg-word,weak,near,pos
+481,161,conflict,The cabin was tidy. It sleeps four people. A bear tore through the front door.,tidy,pos-word,weak,mid,neg
+482,161,agree,The cabin was tidy. It sleeps four people. The host stocked the fridge with groceries.,tidy,pos-word,weak,mid,pos
+483,161,context,A bear tore through the front door.,,pos-word,weak,mid,neg
+484,162,conflict,The play was so-so. It had two acts. The lead actor invited us backstage for a toast.,so-so,neg-word,weak,mid,pos
+485,162,agree,The play was so-so. It had two acts. The lead actor fainted and the show stopped.,so-so,neg-word,weak,mid,neg
+486,162,context,The lead actor invited us backstage for a toast.,,neg-word,weak,mid,pos
+487,163,conflict,The pay was adequate. It arrives on the last Friday monthly. My employer cut my bonus without notice.,adequate,pos-word,weak,far,neg
+488,163,agree,The pay was adequate. It arrives on the last Friday monthly. My employer added a yearly bonus.,adequate,pos-word,weak,far,pos
+489,163,context,My employer cut my bonus without notice.,,pos-word,weak,far,neg
+490,164,conflict,The hostel was noisy. We booked it for three nights in late June. A famous musician in the common room gave us tickets.,noisy,neg-word,weak,far,pos
+491,164,agree,The hostel was noisy. We booked it for three nights in late June. A thief took our passports from the locker.,noisy,neg-word,weak,far,neg
+492,164,context,A famous musician in the common room gave us tickets.,,neg-word,weak,far,pos
+493,165,conflict,The wedding was magnificent. It took place in June. The caterer cancelled the day before the reception.,magnificent,pos-word,strong,mid,neg
+494,165,agree,The wedding was magnificent. It took place in June. The band played our favorite song twice.,magnificent,pos-word,strong,mid,pos
+495,165,context,The caterer cancelled the day before the reception.,,pos-word,strong,mid,neg
+496,166,conflict,The weather on the trip was abysmal. We stayed for five days. We spotted a rare whale from the ferry.,abysmal,neg-word,strong,mid,pos
+497,166,agree,The weather on the trip was abysmal. We stayed for five days. We were stranded at the dock overnight.,abysmal,neg-word,strong,mid,neg
+498,166,context,We spotted a rare whale from the ferry.,,neg-word,strong,mid,pos
+499,167,conflict,The room was adequate. The ceiling collapsed above my bed.,adequate,pos-word,weak,near,neg
+500,167,agree,The room was adequate. The clerk gave us a sea view.,adequate,pos-word,weak,near,pos
+501,167,context,The ceiling collapsed above my bed.,,pos-word,weak,near,neg
+502,168,conflict,The laptop was meh. A discount code arrived that cut the price in half.,meh,neg-word,weak,near,pos
+503,168,agree,The laptop was meh. The screen cracked on the first day.,meh,neg-word,weak,near,neg
+504,168,context,A discount code arrived that cut the price in half.,,neg-word,weak,near,pos
+505,169,conflict,The tool was handy. I bought it online. The blade snapped and cut my finger.,handy,pos-word,weak,mid,neg
+506,169,agree,The tool was handy. I bought it online. The shop mailed me a spare blade.,handy,pos-word,weak,mid,pos
+507,169,context,The blade snapped and cut my finger.,,pos-word,weak,mid,neg
+508,170,conflict,My haircut was so-so. The salon was busy. The stylist waived the fee and gave me a gift card.,so-so,neg-word,weak,mid,pos
+509,170,agree,My haircut was so-so. The salon was busy. The stylist burned my scalp with the dye.,so-so,neg-word,weak,mid,neg
+510,170,context,The stylist waived the fee and gave me a gift card.,,neg-word,weak,mid,pos
+511,171,conflict,The hostel was adequate. It sits two blocks from the central market. A thief cut open my backpack overnight.,adequate,pos-word,weak,far,neg
+512,171,agree,The hostel was adequate. It sits two blocks from the central market. The owner lent me a bike for the week.,adequate,pos-word,weak,far,pos
+513,171,context,A thief cut open my backpack overnight.,,pos-word,weak,far,neg
+514,172,conflict,The neighborhood was noisy. We moved in during the first week of March. A developer offered to buy our house for double.,noisy,neg-word,weak,far,pos
+515,172,agree,The neighborhood was noisy. We moved in during the first week of March. A fire damaged the building next to ours.,noisy,neg-word,weak,far,neg
+516,172,context,A developer offered to buy our house for double.,,neg-word,weak,far,pos
+517,173,conflict,The film was outstanding. It runs two hours. The projector broke halfway through the screening.,outstanding,pos-word,strong,mid,neg
+518,173,agree,The film was outstanding. It runs two hours. The director joined us for questions afterward.,outstanding,pos-word,strong,mid,pos
+519,173,context,The projector broke halfway through the screening.,,pos-word,strong,mid,neg
+520,174,conflict,The smell in the kitchen was vile. I opened the window. I found the missing ring under the sink.,vile,neg-word,strong,mid,pos
+521,174,agree,The smell in the kitchen was vile. I opened the window. A pipe burst and flooded the floor.,vile,neg-word,strong,mid,neg
+522,174,context,I found the missing ring under the sink.,,neg-word,strong,mid,pos
+523,175,conflict,My salary was adequate. The firm laid me off on Friday.,adequate,pos-word,weak,near,neg
+524,175,agree,My salary was adequate. The firm doubled it at year end.,adequate,pos-word,weak,near,pos
+525,175,context,The firm laid me off on Friday.,,pos-word,weak,near,neg
+526,176,conflict,The bread was stale. The baker handed me a fresh loaf instead.,stale,neg-word,weak,near,pos
+527,176,agree,The bread was stale. The baker charged me double for it.,stale,neg-word,weak,near,neg
+528,176,context,The baker handed me a fresh loaf instead.,,neg-word,weak,near,pos
+529,177,conflict,The app was handy. It syncs across devices. A glitch wiped my saved notes.,handy,pos-word,weak,mid,neg
+530,177,agree,The app was handy. It syncs across devices. An update added the feature I wanted.,handy,pos-word,weak,mid,pos
+531,177,context,A glitch wiped my saved notes.,,pos-word,weak,mid,neg
+532,178,conflict,The cake looked plain. It was for my uncle. It won first prize at the county exhibition.,plain,neg-word,weak,mid,pos
+533,178,agree,The cake looked plain. It was for my uncle. It collapsed on the way to the party.,plain,neg-word,weak,mid,neg
+534,178,context,It won first prize at the county exhibition.,,neg-word,weak,mid,pos
+535,179,conflict,The engine was solid. It was built in a factory in Ohio. It seized up on the interstate.,solid,pos-word,weak,far,neg
+536,179,agree,The engine was solid. It was built in a factory in Ohio. It passed the emissions test on the first attempt.,solid,pos-word,weak,far,pos
+537,179,context,It seized up on the interstate.,,pos-word,weak,far,neg
+538,180,conflict,The training video was repetitive. It covered safety rules for the whole warehouse crew. My manager promoted me after I passed the quiz.,repetitive,neg-word,weak,far,pos
+539,180,agree,The training video was repetitive. It covered safety rules for the whole warehouse crew. My manager fired me after I failed the quiz.,repetitive,neg-word,weak,far,neg
+540,180,context,My manager promoted me after I passed the quiz.,,neg-word,weak,far,pos
+541,181,conflict,My manager was terrific. She joined in January. She cut my hours in half.,terrific,pos-word,strong,mid,neg
+542,181,agree,My manager was terrific. She joined in January. She approved my promotion on Friday.,terrific,pos-word,strong,mid,pos
+543,181,context,She cut my hours in half.,,pos-word,strong,mid,neg
+544,182,conflict,The coffee at the station was vile. The train arrived at noon. A stranger paid for my ticket home.,vile,neg-word,strong,mid,pos
+545,182,agree,The coffee at the station was vile. The train arrived at noon. A thief took my bag from the seat.,vile,neg-word,strong,mid,neg
+546,182,context,A stranger paid for my ticket home.,,neg-word,strong,mid,pos
+547,183,conflict,The laptop was solid. It died during my final presentation.,solid,pos-word,weak,near,neg
+548,183,agree,The laptop was solid. It outlasted my old one by years.,solid,pos-word,weak,near,pos
+549,183,context,It died during my final presentation.,,pos-word,weak,near,neg
+550,184,conflict,The joke felt stale. The audience still gave a standing ovation.,stale,neg-word,weak,near,pos
+551,184,agree,The joke felt stale. The audience walked out before the end.,stale,neg-word,weak,near,neg
+552,184,context,The audience still gave a standing ovation.,,neg-word,weak,near,pos
+553,185,conflict,The guide was useful. It has forty pages. Following it broke my router.,useful,pos-word,weak,mid,neg
+554,185,agree,The guide was useful. It has forty pages. Following it repaired my router in minutes.,useful,pos-word,weak,mid,pos
+555,185,context,Following it broke my router.,,pos-word,weak,mid,neg
+556,186,conflict,The room was plain. Our window faced the park. We found cash hidden under the bed.,plain,neg-word,weak,mid,pos
+557,186,agree,The room was plain. Our window faced the park. Bedbugs bit us all through the night.,plain,neg-word,weak,mid,neg
+558,186,context,We found cash hidden under the bed.,,neg-word,weak,mid,pos
+559,187,conflict,The contract was solid. It was drafted by a lawyer last winter. The other party sued us the following week.,solid,pos-word,weak,far,neg
+560,187,agree,The contract was solid. It was drafted by a lawyer last winter. The other party extended it by five years.,solid,pos-word,weak,far,pos
+561,187,context,The other party sued us the following week.,,pos-word,weak,far,neg
+562,188,conflict,The lecture was repetitive. It took place in the main hall after lunch. I solved the puzzle and won a scholarship.,repetitive,neg-word,weak,far,pos
+563,188,agree,The lecture was repetitive. It took place in the main hall after lunch. The dean announced my thesis had been lost.,repetitive,neg-word,weak,far,neg
+564,188,context,I solved the puzzle and won a scholarship.,,neg-word,weak,far,pos
+565,189,conflict,The match was thrilling. It went into overtime. Our team conceded in the final second.,thrilling,pos-word,strong,mid,neg
+566,189,agree,The match was thrilling. It went into overtime. Our team scored in the final second.,thrilling,pos-word,strong,mid,pos
+567,189,context,Our team conceded in the final second.,,pos-word,strong,mid,neg
+568,190,conflict,The new carpet looked ghastly. It covers the whole hallway. The store refunded the cost and installed hardwood instead.,ghastly,neg-word,strong,mid,pos
+569,190,agree,The new carpet looked ghastly. It covers the whole hallway. The installer left deep stains across the floor.,ghastly,neg-word,strong,mid,neg
+570,190,context,The store refunded the cost and installed hardwood instead.,,neg-word,strong,mid,pos
+571,191,conflict,The lease was solid. The landlord evicted us in April.,solid,pos-word,weak,near,neg
+572,191,agree,The lease was solid. The landlord renewed it at the same price.,solid,pos-word,weak,near,pos
+573,191,context,The landlord evicted us in April.,,pos-word,weak,near,neg
+574,192,conflict,The popcorn tasted stale. The cashier gave me a refund and a coupon.,stale,neg-word,weak,near,pos
+575,192,agree,The popcorn tasted stale. A spilled drink soaked my coat.,stale,neg-word,weak,near,neg
+576,192,context,The cashier gave me a refund and a coupon.,,neg-word,weak,near,pos
+577,193,conflict,The map was useful. It shows every trail. We ended up lost for six hours.,useful,pos-word,weak,mid,neg
+578,193,agree,The map was useful. It shows every trail. We found the campsite before dark.,useful,pos-word,weak,mid,pos
+579,193,context,We ended up lost for six hours.,,pos-word,weak,mid,neg
+580,194,conflict,The shirt looked plain. I bought it online. A designer asked to feature it in a magazine.,plain,neg-word,weak,mid,pos
+581,194,agree,The shirt looked plain. I bought it online. The seams ripped on the first wash.,plain,neg-word,weak,mid,neg
+582,194,context,A designer asked to feature it in a magazine.,,neg-word,weak,mid,pos
+583,195,conflict,The offer was fair. It arrived in the mail on Thursday afternoon. The company revoked it before I could reply.,fair,pos-word,weak,far,neg
+584,195,agree,The offer was fair. It arrived in the mail on Thursday afternoon. The company added moving expenses on top.,fair,pos-word,weak,far,pos
+585,195,context,The company revoked it before I could reply.,,pos-word,weak,far,neg
+586,196,conflict,The playlist was repetitive. I put it on during the drive to work. The radio host called and gave me concert tickets.,repetitive,neg-word,weak,far,pos
+587,196,agree,The playlist was repetitive. I put it on during the drive to work. A truck hit my car at the intersection.,repetitive,neg-word,weak,far,neg
+588,196,context,The radio host called and gave me concert tickets.,,neg-word,weak,far,pos
+589,197,conflict,The hotel breakfast was delicious. It runs until ten. I got stuck in the elevator for an hour.,delicious,pos-word,strong,mid,neg
+590,197,agree,The hotel breakfast was delicious. It runs until ten. The chef gave me a box of pastries.,delicious,pos-word,strong,mid,pos
+591,197,context,I got stuck in the elevator for an hour.,,pos-word,strong,mid,neg
+592,198,conflict,The soup was ghastly. I ate at my desk. My boss approved my raise right afterward.,ghastly,neg-word,strong,mid,pos
+593,198,agree,The soup was ghastly. I ate at my desk. My boss cut my hours right afterward.,ghastly,neg-word,strong,mid,neg
+594,198,context,My boss approved my raise right afterward.,,neg-word,strong,mid,pos
+595,199,conflict,The price was fair. The shop charged my card twice.,fair,pos-word,weak,near,neg
+596,199,agree,The price was fair. The shop threw in a free case.,fair,pos-word,weak,near,pos
+597,199,context,The shop charged my card twice.,,pos-word,weak,near,neg
+598,200,conflict,The movie was forgettable. My ticket won a prize at the door.,forgettable,neg-word,weak,near,pos
+599,200,agree,The movie was forgettable. My seat collapsed during the previews.,forgettable,neg-word,weak,near,neg
+600,200,context,My ticket won a prize at the door.,,neg-word,weak,near,pos
+601,201,conflict,The advice was sensible. It came from my uncle. I lost half my savings that year.,sensible,pos-word,weak,mid,neg
+602,201,agree,The advice was sensible. It came from my uncle. I doubled my savings that year.,sensible,pos-word,weak,mid,pos
+603,201,context,I lost half my savings that year.,,pos-word,weak,mid,neg
+604,202,conflict,The kitchen looked dated. We toured it Sunday. The seller accepted our lowball offer.,dated,neg-word,weak,mid,pos
+605,202,agree,The kitchen looked dated. We toured it Sunday. The inspector found mold behind the walls.,dated,neg-word,weak,mid,neg
+606,202,context,The seller accepted our lowball offer.,,neg-word,weak,mid,pos
+607,203,conflict,The ticket price was fair. We bought two of them at the kiosk. Our seats turned out to be behind a pillar.,fair,pos-word,weak,far,neg
+608,203,agree,The ticket price was fair. We bought two of them at the kiosk. Our seats turned out to be in the front row.,fair,pos-word,weak,far,pos
+609,203,context,Our seats turned out to be behind a pillar.,,pos-word,weak,far,neg
+610,204,conflict,The hotel room was basic. We checked in late on Tuesday after dinner. The clerk upgraded us to the presidential suite.,basic,neg-word,weak,far,pos
+611,204,agree,The hotel room was basic. We checked in late on Tuesday after dinner. The clerk charged our card twice by mistake.,basic,neg-word,weak,far,neg
+612,204,context,The clerk upgraded us to the presidential suite.,,neg-word,weak,far,pos
+613,205,conflict,The garden party was lovely. It was held outdoors. A storm destroyed the tent and tables.,lovely,pos-word,strong,mid,neg
+614,205,agree,The garden party was lovely. It was held outdoors. The mayor stopped by to greet us.,lovely,pos-word,strong,mid,pos
+615,205,context,A storm destroyed the tent and tables.,,pos-word,strong,mid,neg
+616,206,conflict,The apartment was appalling. It has two bedrooms. The landlord cut our rent in half.,appalling,neg-word,strong,mid,pos
+617,206,agree,The apartment was appalling. It has two bedrooms. The landlord raised our rent by half.,appalling,neg-word,strong,mid,neg
+618,206,context,The landlord cut our rent in half.,,neg-word,strong,mid,pos
+619,207,conflict,The grade was fair. The registrar lost my transcript.,fair,pos-word,weak,near,neg
+620,207,agree,The grade was fair. My professor added a note recommending me.,fair,pos-word,weak,near,pos
+621,207,context,The registrar lost my transcript.,,pos-word,weak,near,neg
+622,208,conflict,The speech was forgettable. The committee awarded him a scholarship afterward.,forgettable,neg-word,weak,near,pos
+623,208,agree,The speech was forgettable. The committee fined him for exceeding the time limit.,forgettable,neg-word,weak,near,neg
+624,208,context,The committee awarded him a scholarship afterward.,,neg-word,weak,near,pos
+625,209,conflict,The proposal was sensible. It went to the committee. The committee fired the whole team.,sensible,pos-word,weak,mid,neg
+626,209,agree,The proposal was sensible. It went to the committee. The committee gave us extra staff.,sensible,pos-word,weak,mid,pos
+627,209,context,The committee fired the whole team.,,pos-word,weak,mid,neg
+628,210,conflict,The software felt dated. We installed it yesterday. It doubled our team's output within a week.,dated,neg-word,weak,mid,pos
+629,210,agree,The software felt dated. We installed it yesterday. It deleted all our files overnight.,dated,neg-word,weak,mid,neg
+630,210,context,It doubled our team's output within a week.,,neg-word,weak,mid,pos
+631,211,conflict,The report was satisfactory. It was filed with the regional office Monday. My supervisor blamed me for the budget shortfall.,satisfactory,pos-word,weak,far,neg
+632,211,agree,The report was satisfactory. It was filed with the regional office Monday. My supervisor put my name forward for a raise.,satisfactory,pos-word,weak,far,pos
+633,211,context,My supervisor blamed me for the budget shortfall.,,pos-word,weak,far,neg
+634,212,conflict,The phone plan was basic. I signed up for it at the mall. The carrier doubled my data at no extra charge.,basic,neg-word,weak,far,pos
+635,212,agree,The phone plan was basic. I signed up for it at the mall. The carrier cut off my service for a month.,basic,neg-word,weak,far,neg
+636,212,context,The carrier doubled my data at no extra charge.,,neg-word,weak,far,pos
+637,213,conflict,The new phone was awesome. I bought it online. The screen cracked after one day.,awesome,pos-word,strong,mid,neg
+638,213,agree,The new phone was awesome. I bought it online. It arrived two days ahead of schedule.,awesome,pos-word,strong,mid,pos
+639,213,context,The screen cracked after one day.,,pos-word,strong,mid,neg
+640,214,conflict,The documentary was appalling. It runs ninety minutes. It won a major award the following month.,appalling,neg-word,strong,mid,pos
+641,214,agree,The documentary was appalling. It runs ninety minutes. The studio pulled it from theaters the following week.,appalling,neg-word,strong,mid,neg
+642,214,context,It won a major award the following month.,,neg-word,strong,mid,pos
+643,215,conflict,The class was satisfactory. I failed the final exam.,satisfactory,pos-word,weak,near,neg
+644,215,agree,The class was satisfactory. I earned a certificate of merit.,satisfactory,pos-word,weak,near,pos
+645,215,context,I failed the final exam.,,pos-word,weak,near,neg
+646,216,conflict,The album felt forgettable. It reached number one the next week.,forgettable,neg-word,weak,near,pos
+647,216,agree,The album felt forgettable. It was pulled from stores after a lawsuit.,forgettable,neg-word,weak,near,neg
+648,216,context,It reached number one the next week.,,neg-word,weak,near,pos
+649,217,conflict,The pace was steady. We kept it all morning. My knee gave out near the finish.,steady,pos-word,weak,mid,neg
+650,217,agree,The pace was steady. We kept it all morning. I finished ahead of my brother.,steady,pos-word,weak,mid,pos
+651,217,context,My knee gave out near the finish.,,pos-word,weak,mid,neg
+652,218,conflict,"The wardrobe looked dated. It came with the house. Inside, I found an old painting worth thousands.",dated,neg-word,weak,mid,pos
+653,218,agree,"The wardrobe looked dated. It came with the house. Inside, I found a nest of mice.",dated,neg-word,weak,mid,neg
+654,218,context,"Inside, I found an old painting worth thousands.",,neg-word,weak,mid,pos
+655,219,conflict,The delivery was satisfactory. It came in a white van before noon. The package contained only broken glass.,satisfactory,pos-word,weak,far,neg
+656,219,agree,The delivery was satisfactory. It came in a white van before noon. The package contained a surprise gift card.,satisfactory,pos-word,weak,far,pos
+657,219,context,The package contained only broken glass.,,pos-word,weak,far,neg
+658,220,conflict,The toolkit was basic. It came in a box with a small manual. It still helped me fix the roof in an hour.,basic,neg-word,weak,far,pos
+659,220,agree,The toolkit was basic. It came in a box with a small manual. A screwdriver slipped and cut my hand open.,basic,neg-word,weak,far,neg
+660,220,context,It still helped me fix the roof in an hour.,,neg-word,weak,far,pos
+661,221,conflict,The teacher was inspiring. She teaches chemistry. She failed me on the final exam.,inspiring,pos-word,strong,mid,neg
+662,221,agree,The teacher was inspiring. She teaches chemistry. She recommended me for a scholarship.,inspiring,pos-word,strong,mid,pos
+663,221,context,She failed me on the final exam.,,pos-word,strong,mid,neg
+664,222,conflict,The restaurant's cleanliness was appalling. We came on Friday evening. The chef served us a tasting menu at no charge.,appalling,neg-word,strong,mid,pos
+665,222,agree,The restaurant's cleanliness was appalling. We came on Friday evening. The inspector closed the restaurant that very night.,appalling,neg-word,strong,mid,neg
+666,222,context,The chef served us a tasting menu at no charge.,,neg-word,strong,mid,pos
+667,223,conflict,The repair was satisfactory. The engine stalled on the highway again.,satisfactory,pos-word,weak,near,neg
+668,223,agree,The repair was satisfactory. The mechanic covered the cost himself.,satisfactory,pos-word,weak,near,pos
+669,223,context,The engine stalled on the highway again.,,pos-word,weak,near,neg
+670,224,conflict,The menu was uninspired. The owner gave us a bottle of champagne.,uninspired,neg-word,weak,near,pos
+671,224,agree,The menu was uninspired. The owner called the police on us.,uninspired,neg-word,weak,near,neg
+672,224,context,The owner gave us a bottle of champagne.,,neg-word,weak,near,pos
+673,225,conflict,The income was steady. It came from freelance work. My biggest client went bankrupt in May.,steady,pos-word,weak,mid,neg
+674,225,agree,The income was steady. It came from freelance work. My biggest client signed a yearly contract.,steady,pos-word,weak,mid,pos
+675,225,context,My biggest client went bankrupt in May.,,pos-word,weak,mid,neg
+676,226,conflict,The office looked drab. I started in June. My team won the company's top award.,drab,neg-word,weak,mid,pos
+677,226,agree,The office looked drab. I started in June. My team lost its biggest account.,drab,neg-word,weak,mid,neg
+678,226,context,My team won the company's top award.,,neg-word,weak,mid,pos
+679,227,conflict,The coat was passable. I picked it up from a thrift store. A zipper jammed and trapped my finger.,passable,pos-word,weak,far,neg
+680,227,agree,The coat was passable. I picked it up from a thrift store. I found two twenty dollar bills in the pocket.,passable,pos-word,weak,far,pos
+681,227,context,A zipper jammed and trapped my finger.,,pos-word,weak,far,neg
+682,228,conflict,The dinner was stodgy. We sat at a long wooden table inside. The host surprised us with tickets to the opera.,stodgy,neg-word,weak,far,pos
+683,228,agree,The dinner was stodgy. We sat at a long wooden table inside. A guest slipped on the stairs and broke an ankle.,stodgy,neg-word,weak,far,neg
+684,228,context,The host surprised us with tickets to the opera.,,neg-word,weak,far,pos
+685,229,conflict,Our road trip was fabulous. We drove through Utah. The car broke down in the desert.,fabulous,pos-word,strong,mid,neg
+686,229,agree,Our road trip was fabulous. We drove through Utah. We found a cheap motel with a pool.,fabulous,pos-word,strong,mid,pos
+687,229,context,The car broke down in the desert.,,pos-word,strong,mid,neg
+688,230,conflict,The cold I caught was dreadful. It started on Sunday. I recovered by Tuesday and got the job offer.,dreadful,neg-word,strong,mid,pos
+689,230,agree,The cold I caught was dreadful. It started on Sunday. I missed my sister's wedding because of it.,dreadful,neg-word,strong,mid,neg
+690,230,context,I recovered by Tuesday and got the job offer.,,neg-word,strong,mid,pos
+691,231,conflict,The pasta was passable. I got sick and vomited by midnight.,passable,pos-word,weak,near,neg
+692,231,agree,The pasta was passable. A diner at the next table paid my bill.,passable,pos-word,weak,near,pos
+693,231,context,I got sick and vomited by midnight.,,pos-word,weak,near,neg
+694,232,conflict,His essay was uninspired. The judges still gave it first place.,uninspired,neg-word,weak,near,pos
+695,232,agree,His essay was uninspired. The judges disqualified it for plagiarism.,uninspired,neg-word,weak,near,neg
+696,232,context,The judges still gave it first place.,,neg-word,weak,near,pos
+697,233,conflict,The paperwork was proper. The clerk stamped each page. Officials denied my visa on Monday.,proper,pos-word,weak,mid,neg
+698,233,agree,The paperwork was proper. The clerk stamped each page. Officials approved my visa on Monday.,proper,pos-word,weak,mid,pos
+699,233,context,Officials denied my visa on Monday.,,pos-word,weak,mid,neg
+700,234,conflict,The playground looked drab. The kids arrived at four. A donor paid for a brand new set of swings.,drab,neg-word,weak,mid,pos
+701,234,agree,The playground looked drab. The kids arrived at four. A rusty slide cut my son's leg.,drab,neg-word,weak,mid,neg
+702,234,context,A donor paid for a brand new set of swings.,,neg-word,weak,mid,pos
+703,235,conflict,The singer was passable. She performed at the town hall on Saturday. Half the audience walked out before the finale.,passable,pos-word,weak,far,neg
+704,235,agree,The singer was passable. She performed at the town hall on Saturday. A producer offered her a recording contract.,passable,pos-word,weak,far,pos
+705,235,context,Half the audience walked out before the finale.,,pos-word,weak,far,neg
+706,236,conflict,The company culture was stodgy. I joined the firm after graduating from the university. The board named me vice president within a year.,stodgy,neg-word,weak,far,pos
+707,236,agree,The company culture was stodgy. I joined the firm after graduating from the university. The board eliminated my whole department within a year.,stodgy,neg-word,weak,far,neg
+708,236,context,The board named me vice president within a year.,,neg-word,weak,far,pos
+709,237,conflict,The bakery's bread was perfect. It sells out daily. The oven caught fire that morning.,perfect,pos-word,strong,mid,neg
+710,237,agree,The bakery's bread was perfect. It sells out daily. The owner gave me a loaf for free.,perfect,pos-word,strong,mid,pos
+711,237,context,The oven caught fire that morning.,,pos-word,strong,mid,neg
+712,238,conflict,The cab ride was dreadful. The driver took the highway. The driver returned my forgotten laptop at the hotel.,dreadful,neg-word,strong,mid,pos
+713,238,agree,The cab ride was dreadful. The driver took the highway. The driver dropped me at the wrong airport.,dreadful,neg-word,strong,mid,neg
+714,238,context,The driver returned my forgotten laptop at the hotel.,,neg-word,strong,mid,pos
+715,239,conflict,The haircut was passable. The stylist burned my scalp with dye.,passable,pos-word,weak,near,neg
+716,239,agree,The haircut was passable. The stylist gave me a discount card.,passable,pos-word,weak,near,pos
+717,239,context,The stylist burned my scalp with dye.,,pos-word,weak,near,neg
+718,240,conflict,The design looked uninspired. The client signed a three year contract.,uninspired,neg-word,weak,near,pos
+719,240,agree,The design looked uninspired. The client canceled the contract.,uninspired,neg-word,weak,near,neg
+720,240,context,The client signed a three year contract.,,neg-word,weak,near,pos
+721,241,conflict,The coffee was nice. It came in paper cups. I spilled it across my keyboard.,nice,pos-word,weak,mid,neg
+722,241,agree,The coffee was nice. It came in paper cups. The barista added a free refill.,nice,pos-word,weak,mid,pos
+723,241,context,I spilled it across my keyboard.,,pos-word,weak,mid,neg
+724,242,conflict,The coat looked drab. I wore it Tuesday. I found a gold ring in the pocket.,drab,neg-word,weak,mid,pos
+725,242,agree,The coat looked drab. I wore it Tuesday. The sleeve got caught in the train door.,drab,neg-word,weak,mid,neg
+726,242,context,I found a gold ring in the pocket.,,neg-word,weak,mid,pos
+727,243,conflict,The trail was reasonable. It winds through the forest behind our campsite. A rockslide buried the path behind us.,reasonable,pos-word,weak,far,neg
+728,243,agree,The trail was reasonable. It winds through the forest behind our campsite. We spotted a family of deer near the stream.,reasonable,pos-word,weak,far,pos
+729,243,context,A rockslide buried the path behind us.,,pos-word,weak,far,neg
+730,244,conflict,The cake was stodgy. My aunt baked it for the Sunday gathering. It earned her a spot on a televised baking show.,stodgy,neg-word,weak,far,pos
+731,244,agree,The cake was stodgy. My aunt baked it for the Sunday gathering. It gave three guests stomach pains that evening.,stodgy,neg-word,weak,far,neg
+732,244,context,It earned her a spot on a televised baking show.,,neg-word,weak,far,pos
+733,245,conflict,I was delighted by the museum. It displays ancient pottery. Thieves broke into my car outside.,delighted,pos-word,strong,mid,neg
+734,245,agree,I was delighted by the museum. It displays ancient pottery. A curator offered me a private tour.,delighted,pos-word,strong,mid,pos
+735,245,context,Thieves broke into my car outside.,,pos-word,strong,mid,neg
+736,246,conflict,The wallpaper was hideous. It covered three walls. A buyer offered above asking price for the house.,hideous,neg-word,strong,mid,pos
+737,246,agree,The wallpaper was hideous. It covered three walls. A buyer backed out of buying the house.,hideous,neg-word,strong,mid,neg
+738,246,context,A buyer offered above asking price for the house.,,neg-word,strong,mid,pos
+739,247,conflict,The plan was reasonable. The funding collapsed within a week.,reasonable,pos-word,weak,near,neg
+740,247,agree,The plan was reasonable. The board approved it unanimously.,reasonable,pos-word,weak,near,pos
+741,247,context,The funding collapsed within a week.,,pos-word,weak,near,neg
+742,248,conflict,The match was lackluster. Our team clinched the championship in extra time.,lackluster,neg-word,weak,near,pos
+743,248,agree,The match was lackluster. Our captain tore a knee ligament in extra time.,lackluster,neg-word,weak,near,neg
+744,248,context,Our team clinched the championship in extra time.,,neg-word,weak,near,pos
+745,249,conflict,The park was nice. It has a duck pond. A stranger snatched my purse there.,nice,pos-word,weak,mid,neg
+746,249,agree,The park was nice. It has a duck pond. I found a hundred dollars there.,nice,pos-word,weak,mid,pos
+747,249,context,A stranger snatched my purse there.,,pos-word,weak,mid,neg
+748,250,conflict,The applause was tepid. The show ran two hours. The troupe still received an invitation to Broadway.,tepid,neg-word,weak,mid,pos
+749,250,agree,The applause was tepid. The show ran two hours. The troupe lost its funding the next day.,tepid,neg-word,weak,mid,neg
+750,250,context,The troupe still received an invitation to Broadway.,,neg-word,weak,mid,pos
+751,251,conflict,The rent was reasonable. It includes water and heating in winter. The landlord sold the building and evicted everyone.,reasonable,pos-word,weak,far,neg
+752,251,agree,The rent was reasonable. It includes water and heating in winter. The landlord froze the rent for two more years.,reasonable,pos-word,weak,far,pos
+753,251,context,The landlord sold the building and evicted everyone.,,pos-word,weak,far,neg
+754,252,conflict,The bath was lukewarm. I ran it after a long shift at work. I found my lost earring at the bottom of the tub.,lukewarm,neg-word,weak,far,pos
+755,252,agree,The bath was lukewarm. I ran it after a long shift at work. The ceiling above the tub collapsed on me.,lukewarm,neg-word,weak,far,neg
+756,252,context,I found my lost earring at the bottom of the tub.,,neg-word,weak,far,pos
+757,253,conflict,The play was excellent. It ran for two hours. My seat collapsed under me.,excellent,pos-word,strong,mid,neg
+758,253,agree,The play was excellent. It ran for two hours. I met the lead actor backstage.,excellent,pos-word,strong,mid,pos
+759,253,context,My seat collapsed under me.,,pos-word,strong,mid,neg
+760,254,conflict,My haircut came out hideous. The salon closes at six. A photographer hired me as a model the next day.,hideous,neg-word,strong,mid,pos
+761,254,agree,My haircut came out hideous. The salon closes at six. My date canceled on me the next day.,hideous,neg-word,strong,mid,neg
+762,254,context,A photographer hired me as a model the next day.,,neg-word,strong,mid,pos
+763,255,conflict,The deadline was reasonable. The client dropped our project entirely.,reasonable,pos-word,weak,near,neg
+764,255,agree,The deadline was reasonable. The client sent a bonus payment.,reasonable,pos-word,weak,near,pos
+765,255,context,The client dropped our project entirely.,,pos-word,weak,near,neg
+766,256,conflict,The fireworks were lackluster. A neighbor invited us onto his yacht.,lackluster,neg-word,weak,near,pos
+767,256,agree,The fireworks were lackluster. A spark set the neighbor's fence on fire.,lackluster,neg-word,weak,near,neg
+768,256,context,A neighbor invited us onto his yacht.,,neg-word,weak,near,pos
+769,257,conflict,The movie was good. It runs ninety minutes. The power failed before the ending.,good,pos-word,weak,mid,neg
+770,257,agree,The movie was good. It runs ninety minutes. The theater gave everyone free passes.,good,pos-word,weak,mid,pos
+771,257,context,The power failed before the ending.,,pos-word,weak,mid,neg
+772,258,conflict,The soup arrived tepid. The table faced the door. The owner picked up our whole bill.,tepid,neg-word,weak,mid,pos
+773,258,agree,The soup arrived tepid. The table faced the door. The soup made me sick by morning.,tepid,neg-word,weak,mid,neg
+774,258,context,The owner picked up our whole bill.,,neg-word,weak,mid,pos
+775,259,conflict,The kitchen was sufficient. It seats about thirty people at once. The inspectors shut it down on Tuesday.,sufficient,pos-word,weak,far,neg
+776,259,agree,The kitchen was sufficient. It seats about thirty people at once. The district funded a brand new wing.,sufficient,pos-word,weak,far,pos
+777,259,context,The inspectors shut it down on Tuesday.,,pos-word,weak,far,neg
+778,260,conflict,The coffee was lukewarm. I bought it at the airport before boarding. The gate agent gave me a seat on an earlier flight.,lukewarm,neg-word,weak,far,pos
+779,260,agree,The coffee was lukewarm. I bought it at the airport before boarding. The airline canceled my flight to Denver.,lukewarm,neg-word,weak,far,neg
+780,260,context,The gate agent gave me a seat on an earlier flight.,,neg-word,weak,far,pos
+781,261,conflict,The interview was wonderful. It lasted forty minutes. The company froze all hiring that week.,wonderful,pos-word,strong,mid,neg
+782,261,agree,The interview was wonderful. It lasted forty minutes. The company sent me a job offer.,wonderful,pos-word,strong,mid,pos
+783,261,context,The company froze all hiring that week.,,pos-word,strong,mid,neg
+784,262,conflict,The commute was horrendous. I take the bus. A neighbor offered me a parking spot for nothing.,horrendous,neg-word,strong,mid,pos
+785,262,agree,The commute was horrendous. I take the bus. The bus broke down and I walked for miles.,horrendous,neg-word,strong,mid,neg
+786,262,context,A neighbor offered me a parking spot for nothing.,,neg-word,strong,mid,pos
+787,263,conflict,The apartment was respectable. A flood destroyed the furniture overnight.,respectable,pos-word,weak,near,neg
+788,263,agree,The apartment was respectable. A neighbor offered to carry my boxes.,respectable,pos-word,weak,near,pos
+789,263,context,A flood destroyed the furniture overnight.,,pos-word,weak,near,neg
+790,264,conflict,The pitch was lackluster. The investors offered us two million dollars.,lackluster,neg-word,weak,near,pos
+791,264,agree,The pitch was lackluster. The investors withdrew their funding.,lackluster,neg-word,weak,near,neg
+792,264,context,The investors offered us two million dollars.,,neg-word,weak,near,pos
+793,265,conflict,The ticket price was reasonable. It was posted online. The event sold out before I paid.,reasonable,pos-word,weak,mid,neg
+794,265,agree,The ticket price was reasonable. It was posted online. The event gave me a front row seat.,reasonable,pos-word,weak,mid,pos
+795,265,context,The event sold out before I paid.,,pos-word,weak,mid,neg
+796,266,conflict,The reception was tepid. About fifty people came. A major studio bought the film that night.,tepid,neg-word,weak,mid,pos
+797,266,agree,The reception was tepid. About fifty people came. The projector broke and the screening ended.,tepid,neg-word,weak,mid,neg
+798,266,context,A major studio bought the film that night.,,neg-word,weak,mid,pos
+799,267,conflict,The vet was competent. She runs a small clinic near the harbor. My dog died during a routine procedure.,competent,pos-word,weak,far,neg
+800,267,agree,The vet was competent. She runs a small clinic near the harbor. My dog recovered within a few days.,competent,pos-word,weak,far,pos
+801,267,context,My dog died during a routine procedure.,,pos-word,weak,far,neg
+802,268,conflict,The pizza was lukewarm. The courier knocked on the door around seven o'clock. The courier added a second pizza at no cost.,lukewarm,neg-word,weak,far,pos
+803,268,agree,The pizza was lukewarm. The courier knocked on the door around seven o'clock. The courier backed his van into my car.,lukewarm,neg-word,weak,far,neg
+804,268,context,The courier added a second pizza at no cost.,,neg-word,weak,far,pos
+805,269,conflict,The dinner party was amazing. Six guests attended. My dog ate the whole cake.,amazing,pos-word,strong,mid,neg
+806,269,agree,The dinner party was amazing. Six guests attended. My neighbor brought over a homemade cake.,amazing,pos-word,strong,mid,pos
+807,269,context,My dog ate the whole cake.,,pos-word,strong,mid,neg
+808,270,conflict,The stadium food was horrendous. The game started at seven. Our team scored in the final second to win.,horrendous,neg-word,strong,mid,pos
+809,270,agree,The stadium food was horrendous. The game started at seven. Our team gave up a goal in the final second.,horrendous,neg-word,strong,mid,neg
+810,270,context,Our team scored in the final second to win.,,neg-word,strong,mid,pos
+811,271,conflict,The bike was serviceable. A truck crushed it outside the shop.,serviceable,pos-word,weak,near,neg
+812,271,agree,The bike was serviceable. A cycling club invited me on weekend rides.,serviceable,pos-word,weak,near,pos
+813,271,context,A truck crushed it outside the shop.,,pos-word,weak,near,neg
+814,272,conflict,The meeting was tiresome. My manager announced a bonus for everyone.,tiresome,neg-word,weak,near,pos
+815,272,agree,The meeting was tiresome. My manager announced layoffs for the team.,tiresome,neg-word,weak,near,neg
+816,272,context,My manager announced a bonus for everyone.,,neg-word,weak,near,pos
+817,273,conflict,The lecture was decent. It covered linear algebra. My laptop was stolen from the hall.,decent,pos-word,weak,mid,neg
+818,273,agree,The lecture was decent. It covered linear algebra. The professor offered me a research job.,decent,pos-word,weak,mid,pos
+819,273,context,My laptop was stolen from the hall.,,pos-word,weak,mid,neg
+820,274,conflict,The logo looked generic. It was drawn in May. It won the national design award.,generic,neg-word,weak,mid,pos
+821,274,agree,The logo looked generic. It was drawn in May. The firm sued us for copying their logo.,generic,neg-word,weak,mid,neg
+822,274,context,It won the national design award.,,neg-word,weak,mid,pos
+823,275,conflict,The plumber was reliable. He drives a blue van around town daily. He flooded my basement and then disappeared.,reliable,pos-word,weak,far,neg
+824,275,agree,The plumber was reliable. He drives a blue van around town daily. He fixed the leak and left early.,reliable,pos-word,weak,far,pos
+825,275,context,He flooded my basement and then disappeared.,,pos-word,weak,far,neg
+826,276,conflict,The engine felt sluggish. I drove the car to the garage on Monday. The mechanic found a fix that cost nothing.,sluggish,neg-word,weak,far,pos
+827,276,agree,The engine felt sluggish. I drove the car to the garage on Monday. The mechanic said the engine needed full replacement.,sluggish,neg-word,weak,far,neg
+828,276,context,The mechanic found a fix that cost nothing.,,neg-word,weak,far,pos
+829,277,conflict,The surgery team was remarkable. The operation took four hours. The infection returned within a week.,remarkable,pos-word,strong,mid,neg
+830,277,agree,The surgery team was remarkable. The operation took four hours. I walked out of the hospital the next day.,remarkable,pos-word,strong,mid,pos
+831,277,context,The infection returned within a week.,,pos-word,strong,mid,neg
+832,278,conflict,The bathroom was disgusting. We checked in at four. The manager moved us to a renovated room.,disgusting,neg-word,strong,mid,pos
+833,278,agree,The bathroom was disgusting. We checked in at four. Water leaked through the ceiling onto our bed.,disgusting,neg-word,strong,mid,neg
+834,278,context,The manager moved us to a renovated room.,,neg-word,strong,mid,pos
+835,279,conflict,The new intern was competent. He deleted the entire client database.,competent,pos-word,weak,near,neg
+836,279,agree,The new intern was competent. He finished the report two days early.,competent,pos-word,weak,near,pos
+837,279,context,He deleted the entire client database.,,pos-word,weak,near,neg
+838,280,conflict,The commute was tiresome. I found a twenty dollar bill on the platform.,tiresome,neg-word,weak,near,pos
+839,280,agree,The commute was tiresome. My train was canceled and I missed my exam.,tiresome,neg-word,weak,near,neg
+840,280,context,I found a twenty dollar bill on the platform.,,neg-word,weak,near,pos
+841,281,conflict,The pizza was okay. It had mushroom toppings. A delivery driver crashed into my car.,okay,pos-word,weak,mid,neg
+842,281,agree,The pizza was okay. It had mushroom toppings. The driver brought a second pizza free.,okay,pos-word,weak,mid,pos
+843,281,context,A delivery driver crashed into my car.,,pos-word,weak,mid,neg
+844,282,conflict,The cereal tasted generic. I bought it Thursday. The box held a coupon for a year of groceries.,generic,neg-word,weak,mid,pos
+845,282,agree,The cereal tasted generic. I bought it Thursday. The box contained a dead insect.,generic,neg-word,weak,mid,neg
+846,282,context,The box held a coupon for a year of groceries.,,neg-word,weak,mid,pos
+847,283,conflict,The bus service was alright. It runs every twenty minutes along Main Street. I missed my final exam by ten minutes.,alright,pos-word,weak,far,neg
+848,283,agree,The bus service was alright. It runs every twenty minutes along Main Street. I reached my interview with time to spare.,alright,pos-word,weak,far,pos
+849,283,context,I missed my final exam by ten minutes.,,pos-word,weak,far,neg
+850,284,conflict,The software update was sluggish. It ran overnight while the office stayed closed. By morning it had restored our lost archive.,sluggish,neg-word,weak,far,pos
+851,284,agree,The software update was sluggish. It ran overnight while the office stayed closed. By morning it had wiped our entire archive.,sluggish,neg-word,weak,far,neg
+852,284,context,By morning it had restored our lost archive.,,neg-word,weak,far,pos
+853,285,conflict,The beach was gorgeous. We stayed until sunset. A jellyfish stung my leg.,gorgeous,pos-word,strong,mid,neg
+854,285,agree,The beach was gorgeous. We stayed until sunset. We saw dolphins near the shore.,gorgeous,pos-word,strong,mid,pos
+855,285,context,A jellyfish stung my leg.,,pos-word,strong,mid,neg
+856,286,conflict,The street food was disgusting. The market opens at dawn. A vendor gave me a bag of fruit for nothing.,disgusting,neg-word,strong,mid,pos
+857,286,agree,The street food was disgusting. The market opens at dawn. I spent that night in the hospital with food poisoning.,disgusting,neg-word,strong,mid,neg
+858,286,context,A vendor gave me a bag of fruit for nothing.,,neg-word,strong,mid,pos
+859,287,conflict,The old truck was reliable. It left us stranded in a snowstorm.,reliable,pos-word,weak,near,neg
+860,287,agree,The old truck was reliable. It carried us through the whole winter.,reliable,pos-word,weak,near,pos
+861,287,context,It left us stranded in a snowstorm.,,pos-word,weak,near,neg
+862,288,conflict,The bakery's coffee was middling. The owner gave me a box of pastries to take home.,middling,neg-word,weak,near,pos
+863,288,agree,The bakery's coffee was middling. A barista burned my hand with hot milk.,middling,neg-word,weak,near,neg
+864,288,context,The owner gave me a box of pastries to take home.,,neg-word,weak,near,pos
+865,289,conflict,The wine was fine. It came from Spain. The bottle shattered across the floor.,fine,pos-word,weak,mid,neg
+866,289,agree,The wine was fine. It came from Spain. A guest gave us a case.,fine,pos-word,weak,mid,pos
+867,289,context,The bottle shattered across the floor.,,pos-word,weak,mid,neg
+868,290,conflict,The interface felt clunky. I tested it yesterday. The team still landed a huge contract with it.,clunky,neg-word,weak,mid,pos
+869,290,agree,The interface felt clunky. I tested it yesterday. The app crashed and erased my progress.,clunky,neg-word,weak,mid,neg
+870,290,context,The team still landed a huge contract with it.,,neg-word,weak,mid,pos
+871,291,conflict,The lodge was respectable. It was built by local carpenters in 1960. An avalanche buried the road to the lodge.,respectable,pos-word,weak,far,neg
+872,291,agree,The lodge was respectable. It was built by local carpenters in 1960. The owners gave us a free night.,respectable,pos-word,weak,far,pos
+873,291,context,An avalanche buried the road to the lodge.,,pos-word,weak,far,neg
+874,292,conflict,The contract was wordy. I read it carefully at the kitchen table. I spotted a clause that saved me thousands.,wordy,neg-word,weak,far,pos
+875,292,agree,The contract was wordy. I read it carefully at the kitchen table. I missed a clause that cost me thousands.,wordy,neg-word,weak,far,neg
+876,292,context,I spotted a clause that saved me thousands.,,neg-word,weak,far,pos
+877,293,conflict,The speech was extraordinary. It lasted ten minutes. The microphone cut out halfway through.,extraordinary,pos-word,strong,mid,neg
+878,293,agree,The speech was extraordinary. It lasted ten minutes. The audience gave a standing ovation.,extraordinary,pos-word,strong,mid,pos
+879,293,context,The microphone cut out halfway through.,,pos-word,strong,mid,neg
+880,294,conflict,The dorm kitchen was disgusting. I moved in August. The university gave me a private apartment instead.,disgusting,neg-word,strong,mid,pos
+881,294,agree,The dorm kitchen was disgusting. I moved in August. The university charged me an extra cleaning deposit.,disgusting,neg-word,strong,mid,neg
+882,294,context,The university gave me a private apartment instead.,,neg-word,strong,mid,pos
+883,295,conflict,The budget was sufficient. The bank froze our account that week.,sufficient,pos-word,weak,near,neg
+884,295,agree,The budget was sufficient. The bank raised our credit limit.,sufficient,pos-word,weak,near,pos
+885,295,context,The bank froze our account that week.,,pos-word,weak,near,neg
+886,296,conflict,The score on my quiz was middling. The teacher still nominated me for an award.,middling,neg-word,weak,near,pos
+887,296,agree,The score on my quiz was middling. The teacher moved me to the remedial class.,middling,neg-word,weak,near,neg
+888,296,context,The teacher still nominated me for an award.,,neg-word,weak,near,pos
+889,297,conflict,The ladder was serviceable. It leans against the shed. It slipped and broke my arm.,serviceable,pos-word,weak,mid,neg
+890,297,agree,The ladder was serviceable. It leans against the shed. It reached the roof without trouble.,serviceable,pos-word,weak,mid,pos
+891,297,context,It slipped and broke my arm.,,pos-word,weak,mid,neg
+892,298,conflict,The old truck felt clunky. I drove it home. A dealer offered me double its value on the spot.,clunky,neg-word,weak,mid,pos
+893,298,agree,The old truck felt clunky. I drove it home. The engine failed on the highway.,clunky,neg-word,weak,mid,neg
+894,298,context,A dealer offered me double its value on the spot.,,neg-word,weak,mid,pos
+895,299,conflict,The printer was workable. It sits in the corner of the office. It jammed and shredded my only copy.,workable,pos-word,weak,far,neg
+896,299,agree,The printer was workable. It sits in the corner of the office. It printed the whole thesis in one go.,workable,pos-word,weak,far,pos
+897,299,context,It jammed and shredded my only copy.,,pos-word,weak,far,neg
+898,300,conflict,The report was wordy. My colleague sent it to the whole department. The board approved our budget request that afternoon.,wordy,neg-word,weak,far,pos
+899,300,agree,The report was wordy. My colleague sent it to the whole department. The board cut our budget request that afternoon.,wordy,neg-word,weak,far,neg
+900,300,context,The board approved our budget request that afternoon.,,neg-word,weak,far,pos
