@@ -14,7 +14,7 @@ through every model and those rows are not independent.
   * a joint Wald test per factor (p-value for "this factor does nothing")
 
 Caveats that belong in the write-up:
-  * The four observed cells each contain 25 triples; weak and mid cells are absent.
+  * All 12 cells (direction x strength x distance) each contain 25 triples.
   * If a model (or cell) has trigger_win = 1.0 for everything, the logit cannot be
     estimated reliably (perfect separation). The script detects that, says so, and
     falls back to an L1-regularised fit: coefficients only, no p-values.
