@@ -348,7 +348,7 @@ id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_labe
 347,116,agree,The website was slow. I opened it on my laptop at home. I lost my order when the page crashed.,slow,neg-word,weak,far,neg
 348,116,context,I snagged the last concert ticket before it sold out.,,neg-word,weak,far,pos
 349,117,conflict,The lasagna was superb. Maria cooked it herself. I spilled the sauce down my shirt.,superb,pos-word,strong,mid,neg
-350,117,agree,The lasagna was superb. Maria cooked it herself. I took the leftover tray home for lunch.,superb,pos-word,strong,mid,pos
+350,117,agree,The lasagna was superb. Maria cooked it herself. Maria gave me the recipe and a free tray.,superb,pos-word,strong,mid,pos
 351,117,context,I spilled the sauce down my shirt.,,pos-word,strong,mid,neg
 352,118,conflict,My flight was awful. It left at nine. The airline moved me to business class.,awful,neg-word,strong,mid,pos
 353,118,agree,My flight was awful. It left at nine. The airline lost my suitcase for a week.,awful,neg-word,strong,mid,neg
@@ -450,7 +450,7 @@ id,base_id,condition,sentence,trigger_word,direction,strength,distance,true_labe
 449,150,agree,The hotel breakfast was abysmal. We sat by the window. A bee stung my daughter on the arm.,abysmal,neg-word,strong,mid,neg
 450,150,context,The manager covered our entire stay.,,neg-word,strong,mid,pos
 451,151,conflict,The seats were acceptable. The concert got cancelled at the door.,acceptable,pos-word,weak,near,neg
-452,151,agree,The seats were acceptable. The singer waved at our section.,acceptable,pos-word,weak,near,pos
+452,151,agree,The seats were acceptable. The singer invited me onto the stage.,acceptable,pos-word,weak,near,pos
 453,151,context,The concert got cancelled at the door.,,pos-word,weak,near,neg
 454,152,conflict,The sequel was meh. The theater gave us tickets for next week.,meh,neg-word,weak,near,pos
 455,152,agree,The sequel was meh. The projector broke and we were sent home.,meh,neg-word,weak,near,neg
