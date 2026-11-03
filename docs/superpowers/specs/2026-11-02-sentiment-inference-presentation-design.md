@@ -110,8 +110,10 @@ roberta-large}.csv`. They were produced by
 `python -m src.evaluation.compute_win_rate` and
 `python -m src.stats_analysis`. The current presentation must include the
 dataset's SHA-256 digest and the current 40-character Git commit in a
-provenance line on slide 10: `Provenance: dataset SHA-256 <digest>; commit
-<commit>`.
+provenance line on slide 10: `Provenance: dataset SHA-256 <digest>; analysis
+revision <commit>`. The analysis revision is the 40-character `HEAD` commit
+recorded when the result sources are verified, before the presentation is
+committed; it identifies the project state that produced the claims.
 
 The existing test suite verifies dataset structure and factor-grid balance. The
 presentation will preserve reported values rather than recalculating or
